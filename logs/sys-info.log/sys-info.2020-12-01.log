@@ -1,0 +1,8 @@
+10:39:47.091 [Thread-26] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:39:47.117 [Thread-26] INFO  o.s.s.q.SchedulerFactoryBean - [destroy,844] - Shutting down Quartz Scheduler
+10:39:47.118 [Thread-26] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+10:39:47.118 [Thread-26] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+10:39:47.119 [Thread-26] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:39:47.124 [Thread-26] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,208] - Shutting down ExecutorService 'threadPoolTaskExecutor'
+10:39:47.132 [Thread-26] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+10:39:47.142 [Thread-26] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed

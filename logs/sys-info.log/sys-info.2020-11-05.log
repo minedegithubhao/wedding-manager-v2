@@ -1,0 +1,95 @@
+05:41:41.552 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/admin/info
+05:41:43.874 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/admin/login
+05:41:50.073 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/admin/login
+05:43:04.325 [Thread-19] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+05:43:04.336 [Thread-19] INFO  o.s.s.q.SchedulerFactoryBean - [destroy,844] - Shutting down Quartz Scheduler
+05:43:04.336 [Thread-19] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+05:43:04.336 [Thread-19] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+05:43:04.337 [Thread-19] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+05:43:04.341 [Thread-19] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,208] - Shutting down ExecutorService 'threadPoolTaskExecutor'
+05:43:04.344 [Thread-19] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+05:43:04.352 [Thread-19] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+05:46:27.405 [main] INFO  c.q.v.a.RunApplication - [logStarting,50] - Starting RunApplication on cxdpcdeMacBook-Pro.local with PID 6487 (/Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager/target/classes started by cxdpc in /Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager)
+05:46:27.412 [main] INFO  c.q.v.a.RunApplication - [logStartupProfileInfo,679] - The following profiles are active: dev
+05:46:27.465 [main] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+05:46:28.822 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+05:46:28.825 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+05:46:28.891 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+05:46:29.313 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$fa05aa8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05:46:29.380 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3399ec5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05:46:29.549 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$cc47b497] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05:46:29.555 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05:46:29.559 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7fd987ef' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05:46:29.563 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$f11c5749] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05:46:29.575 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+05:46:30.099 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+05:46:30.114 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+05:46:30.119 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+05:46:30.119 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+05:46:30.127 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/cxdpc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05:46:30.222 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+05:46:30.223 [main] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 2758 ms
+05:46:31.600 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'xssFilter' to urls: [/system/*, /monitor/*, /tool/*, /pts/sys/*]
+05:46:31.600 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+05:46:31.600 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+05:46:31.600 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+05:46:31.600 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+05:46:31.601 [main] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - [configure,248] - Mapping filter: 'springSecurityFilterChain' to: [/*]
+05:46:31.601 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'object' to urls: [/druid/js/common.js]
+05:46:31.601 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'repeatableFilter' to urls: [/*]
+05:46:31.602 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'webStatFilter' to urls: [/*]
+05:46:31.602 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'jwtAuthenticationTokenFilter' to: [/*]
+05:46:31.602 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+05:46:31.603 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet statViewServlet mapped to [/druid/*]
+05:46:33.159 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+05:46:33.203 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'threadPoolTaskExecutor'
+05:46:34.999 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+05:46:35.049 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+05:46:35.066 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+05:46:35.066 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+05:46:35.066 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+05:46:35.067 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+05:46:35.067 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+05:46:35.067 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+05:46:35.067 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@47d81427
+05:46:35.257 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - [<init>,43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@87fc0fc, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c60f096, org.springframework.security.web.header.HeaderWriterFilter@1b9c716f, org.springframework.security.web.authentication.logout.LogoutFilter@652a1a17, com.qh.venus.achilles.framework.security.filter.JwtAuthenticationTokenFilter@4245bf68, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43cbafa6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@631678e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@671f545b, org.springframework.security.web.session.SessionManagementFilter@27d6267e, org.springframework.security.web.access.ExceptionTranslationFilter@73e93c3a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c29b0dc]
+05:46:35.435 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+05:46:35.458 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+05:46:35.500 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+05:46:35.601 [main] INFO  o.s.s.q.SchedulerFactoryBean - [startScheduler,726] - Starting Quartz Scheduler now
+05:46:35.602 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+05:46:35.610 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+05:46:35.628 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+05:46:35.646 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path ''
+05:46:35.650 [main] INFO  c.q.v.a.RunApplication - [logStarted,59] - Started RunApplication in 8.772 seconds (JVM running for 9.854)
+05:47:02.370 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05:47:02.371 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+05:47:02.389 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 18 ms
+05:47:02.406 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/admin/info
+05:47:07.335 [http-nio-8080-exec-2] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1603095587,1603288005; sidebarStatus=1; username=user; password=user; _gid=GA1.1.878685052.1604526101; Hm_lpvt_8b02a318fde5831da10426656a43d03c=1604526422; _gat_gtag_UA_144208445_2=1] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+05:47:07.336 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+05:47:09.864 [http-nio-8080-exec-2] INFO  i.l.c.EpollProvider - [info,101] - Starting without optional epoll library
+05:47:09.867 [http-nio-8080-exec-2] INFO  i.l.c.KqueueProvider - [info,101] - Starting without optional kqueue library
+05:47:16.528 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+05:47:36.087 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+05:47:36.490 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,43] - 登录用户：wedding 不存在.
+05:47:36.619 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[wedding][Error][用户不存在/密码错误]
+05:47:36.667 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+05:48:32.073 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+12:27:40.104 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+12:27:44.022 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+12:27:44.052 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,43] - 登录用户：wedding 不存在.
+12:27:44.166 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[wedding][Error][用户不存在/密码错误]
+12:27:44.185 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+12:27:55.395 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+12:28:01.099 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+12:28:12.291 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+12:28:26.213 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+12:28:32.261 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code

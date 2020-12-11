@@ -1,0 +1,8 @@
+19:20:19.682 [schedule-pool-3] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[wedding][Error][用户不存在/密码错误]
+19:20:28.430 [schedule-pool-2] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[wedding][Success][登录成功]
+19:25:29.750 [Thread-23] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+19:33:23.419 [Thread-24] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+19:35:19.255 [Thread-21] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+19:38:39.358 [Thread-20] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+22:04:39.862 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[wedding][Success][登录成功]
+22:33:43.527 [Thread-20] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====

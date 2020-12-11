@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qh.venus.achilles.pts.member.mapper.HunMemberMapper">
+    
+    <resultMap type="HunMember" id="HunMemberResult">
+        <result property="id"    column="id"    />
+        <result property="delFlag"    column="del_flag"    />
+        <result property="status"    column="status"    />
+        <result property="createBy"    column="create_by"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateBy"    column="update_by"    />
+        <result property="updateTime"    column="update_time"    />
+        <result property="remark"    column="remark"    />
+        <result property="parse1"    column="parse1"    />
+        <result property="parse2"    column="parse2"    />
+        <result property="parse3"    column="parse3"    />
+        <result property="parse4"    column="parse4"    />
+        <result property="parse5"    column="parse5"    />
+        <result property="cid"    column="cid"    />
+        <result property="cardType"    column="card_type"    />
+        <result property="cardId"    column="card_id"    />
+        <result property="memberType"    column="member_type"    />
+        <result property="level"    column="level"    />
+        <result property="joinTime"    column="join_time"    />
+        <result property="cardName"    column="card_name"    />
+        <result property="useTimes"    column="use_times"    />
+        <association property="hunCustom"    column="custom" javaType="HunCustom" resultMap="HunCustomResult" />
+    </resultMap>
+    <resultMap type="HunCustom" id="HunCustomResult">
+        <result property="name"    column="name"    />
+        <result property="phone"    column="phone"    />
+    </resultMap>
+
+    <sql id="selectHunMemberVo">
+        select hm.id, hm.del_flag, hm.status, hm.create_by, hm.create_time, hm.update_by, hm.update_time, hm.remark, hm.parse1, hm.parse2, hm.parse3, hm.parse4, hm.parse5, hm.cid, hm.card_type, hm.card_id, hm.member_type, hm.level, hm.join_time, hm.card_name, hm.use_times, hc.`name`, hc.phone from hun_member hm LEFT JOIN hun_custom hc ON hm.cid = hc.id
+    </sql>
+
+    <select id="selectHunMemberList" parameterType="HunMember" resultMap="HunMemberResult">
+        <include refid="selectHunMemberVo"/>
+        <where>  
+            <if test="cardName != null  and cardName != ''"> and card_name = #{cardName}</if>
+            <if test="cardType != null  and cardType != ''"> and card_type = #{cardType}</if>
+            <if test="cardId != null  and cardId != ''"> and card_id = #{cardId}</if>
+            <if test="memberType != null  and memberType != ''"> and member_type = #{memberType}</if>
+        </where>
+    </select>
+    
+    <select id="selectHunMemberById" parameterType="Long" resultMap="HunMemberResult">
+        <include refid="selectHunMemberVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertHunMember" parameterType="HunMember" useGeneratedKeys="true" keyProperty="id">
+        insert into hun_member
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="delFlag != null  and delFlag != ''">del_flag,</if>
+            <if test="status != null  and status != ''">status,</if>
+            <if test="createBy != null  and createBy != ''">create_by,</if>
+            <if test="createTime != null ">create_time,</if>
+            <if test="updateBy != null  and updateBy != ''">update_by,</if>
+            <if test="updateTime != null ">update_time,</if>
+            <if test="remark != null  and remark != ''">remark,</if>
+            <if test="parse1 != null  and parse1 != ''">parse1,</if>
+            <if test="parse2 != null  and parse2 != ''">parse2,</if>
+            <if test="parse3 != null  and parse3 != ''">parse3,</if>
+            <if test="parse4 != null  and parse4 != ''">parse4,</if>
+            <if test="parse5 != null  and parse5 != ''">parse5,</if>
+            <if test="cid != null  and cid != ''">cid,</if>
+            <if test="cardType != null  and cardType != ''">card_type,</if>
+            <if test="cardId != null  and cardId != ''">card_id,</if>
+            <if test="memberType != null  and memberType != ''">member_type,</if>
+            <if test="level != null  and level != ''">level,</if>
+            <if test="joinTime != null ">join_time,</if>
+            <if test="cardName != null  and cardName != ''">card_name,</if>
+            <if test="useTimes != null  and useTimes != ''">use_times,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="delFlag != null  and delFlag != ''">#{delFlag},</if>
+            <if test="status != null  and status != ''">#{status},</if>
+            <if test="createBy != null  and createBy != ''">#{createBy},</if>
+            <if test="createTime != null ">#{createTime},</if>
+            <if test="updateBy != null  and updateBy != ''">#{updateBy},</if>
+            <if test="updateTime != null ">#{updateTime},</if>
+            <if test="remark != null  and remark != ''">#{remark},</if>
+            <if test="parse1 != null  and parse1 != ''">#{parse1},</if>
+            <if test="parse2 != null  and parse2 != ''">#{parse2},</if>
+            <if test="parse3 != null  and parse3 != ''">#{parse3},</if>
+            <if test="parse4 != null  and parse4 != ''">#{parse4},</if>
+            <if test="parse5 != null  and parse5 != ''">#{parse5},</if>
+            <if test="cid != null  and cid != ''">#{cid},</if>
+            <if test="cardType != null  and cardType != ''">#{cardType},</if>
+            <if test="cardId != null  and cardId != ''">#{cardId},</if>
+            <if test="memberType != null  and memberType != ''">#{memberType},</if>
+            <if test="level != null  and level != ''">#{level},</if>
+            <if test="joinTime != null ">#{joinTime},</if>
+            <if test="cardName != null  and cardName != ''">#{cardName},</if>
+            <if test="useTimes != null  and useTimes != ''">#{useTimes},</if>
+         </trim>
+    </insert>
+
+    <update id="updateHunMember" parameterType="HunMember">
+        update hun_member
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="delFlag != null  and delFlag != ''">del_flag = #{delFlag},</if>
+            <if test="status != null  and status != ''">status = #{status},</if>
+            <if test="createBy != null  and createBy != ''">create_by = #{createBy},</if>
+            <if test="createTime != null ">create_time = #{createTime},</if>
+            <if test="updateBy != null  and updateBy != ''">update_by = #{updateBy},</if>
+            <if test="updateTime != null ">update_time = #{updateTime},</if>
+            <if test="remark != null  and remark != ''">remark = #{remark},</if>
+            <if test="parse1 != null  and parse1 != ''">parse1 = #{parse1},</if>
+            <if test="parse2 != null  and parse2 != ''">parse2 = #{parse2},</if>
+            <if test="parse3 != null  and parse3 != ''">parse3 = #{parse3},</if>
+            <if test="parse4 != null  and parse4 != ''">parse4 = #{parse4},</if>
+            <if test="parse5 != null  and parse5 != ''">parse5 = #{parse5},</if>
+            <if test="cid != null  and cid != ''">cid = #{cid},</if>
+            <if test="cardType != null  and cardType != ''">card_type = #{cardType},</if>
+            <if test="cardId != null  and cardId != ''">card_id = #{cardId},</if>
+            <if test="memberType != null  and memberType != ''">member_type = #{memberType},</if>
+            <if test="level != null  and level != ''">level = #{level},</if>
+            <if test="joinTime != null ">join_time = #{joinTime},</if>
+            <if test="cardName != null  and cardName != ''">card_name = #{cardName},</if>
+            <if test="useTimes != null  and useTimes != ''">use_times = #{useTimes},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteHunMemberById" parameterType="Long">
+        delete from hun_member where id = #{id}
+    </delete>
+
+    <delete id="deleteHunMemberByIds" parameterType="String">
+        delete from hun_member where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    
+</mapper>

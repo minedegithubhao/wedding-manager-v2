@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qh.venus.achilles.pts.custom.mapper.HunCustomMapper">
+    
+    <resultMap type="HunCustom" id="HunCustomResult">
+        <result property="id"    column="id"    />
+        <result property="delFlag"    column="del_flag"    />
+        <result property="status"    column="status"    />
+        <result property="createBy"    column="create_by"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateBy"    column="update_by"    />
+        <result property="updateTime"    column="update_time"    />
+        <result property="remark"    column="remark"    />
+        <result property="parse1"    column="parse1"    />
+        <result property="parse2"    column="parse2"    />
+        <result property="parse3"    column="parse3"    />
+        <result property="parse4"    column="parse4"    />
+        <result property="name"    column="name"    />
+        <result property="sex"    column="sex"    />
+        <result property="nation"    column="nation"    />
+        <result property="birthday"    column="birthday"    />
+        <result property="nativePlace"    column="native_place"    />
+        <result property="blood"    column="blood"    />
+        <result property="idCard"    column="id_card"    />
+        <result property="height"    column="height"    />
+        <result property="weight"    column="weight"    />
+        <result property="physicalCondition"    column="physical_condition"    />
+        <result property="hobby"    column="hobby"    />
+        <result property="graduationCollage"    column="graduation_collage"    />
+        <result property="education"    column="education"    />
+        <result property="job"    column="job"    />
+        <result property="jobAddr"    column="job_addr"    />
+        <result property="pic"    column="pic"    />
+        <result property="homeAddr"    column="home_addr"    />
+        <result property="homeDesc"    column="home_desc"    />
+        <result property="phone"    column="phone"    />
+        <result property="wechat"    column="wechat"    />
+        <result property="qq"    column="qq"    />
+        <result property="email"    column="email"    />
+        <result property="maritalStatus"    column="marital_status"    />
+        <result property="salary"    column="salary"    />
+        <result property="house"    column="house"    />
+        <result property="houseDesc"    column="house_desc"    />
+        <result property="car"    column="car"    />
+        <result property="carDesc"    column="car_desc"    />
+        <result property="agent"    column="agent"    />
+        <result property="filePath"    column="file_path"    />
+        <association property="hunAgent"    column="agent" javaType="HunAgent" resultMap="HunAgentResult" />
+    </resultMap>
+    <resultMap type="HunAgent" id="HunAgentResult">
+        <result property="id"    column="agent_id"    />
+        <result property="parse1"    column="agent_parse1"    />
+        <result property="parse2"    column="agent_parse2"    />
+        <result property="parse3"    column="agent_parse3"    />
+        <result property="parse4"    column="agent_parse4"    />
+        <result property="parse5"    column="agent_parse5"    />
+        <result property="name"    column="agent_name"    />
+        <result property="phone"    column="agent_phone"    />
+        <result property="relation"    column="agent_relation"    />
+        <result property="wechat"    column="agent_wechat"    />
+        <result property="qq"    column="agent_qq"    />
+        <result property="email"    column="agent_email"    />
+    </resultMap>
+    <sql id="selectHunCustomVo">
+        select file_path, agent_id, agent_parse1, agent_parse2, agent_parse3, agent_parse4, agent_parse5, agent_name, agent_phone, agent_relation, agent_wechat, agent_qq, agent_email, id, del_flag, status, create_by, create_time, update_by, update_time, remark, parse1, parse2, parse3, parse4, name, sex, nation, birthday, native_place, blood, id_card, height, weight, physical_condition, hobby, graduation_collage, education, job, job_addr, pic, home_addr, home_desc, phone, wechat, qq, email, marital_status, salary, house, house_desc, car, car_desc, agent from hun_custom hc
+        left join (select id as agent_id, parse1 as agent_parse1, parse2 as agent_parse2, parse3 as agent_parse3, parse4 as agent_parse4, parse5 as agent_parse5, name as agent_name, phone as agent_phone, relation as agent_relation, wechat as agent_wechat, qq as agent_qq, email as agent_email from hun_agent where status = 0) ha on hc.agent = ha.agent_id
+        left join (select bus_id, file_path from t_sys_file) sf on hc.pic = sf.bus_id
+    </sql>
+
+    <select id="selectHunCustomList" parameterType="HunCustom" resultMap="HunCustomResult">
+        <include refid="selectHunCustomVo"/>
+        <where>  
+            <if test="name != null  and name != ''"> and name like concat('%', #{name}, '%')</if>
+            <if test="sex != null  and sex != ''"> and sex = #{sex}</if>
+            <if test="nation != null  and nation != ''"> and nation like concat('%', #{nation}, '%')</if>
+            <if test="nativePlace != null  and nativePlace != ''"> and native_place like concat('%', #{nativePlace}, '%')</if>
+            <if test="height != null  and height != ''"> and height like concat('%', #{height}, '%')</if>
+            <if test="weight != null  and weight != ''"> and weight like concat('%', #{weight}, '%')</if>
+            <if test="education != null  and education != ''"> and education = #{education}</if>
+            <if test="job != null  and job != ''"> and job like concat('%', #{job}, '%')</if>
+            <if test="jobAddr != null  and jobAddr != ''"> and job_addr like concat('%', #{jobAddr}, '%')</if>
+            <if test="homeAddr != null  and homeAddr != ''"> and home_addr like concat('%', #{homeAddr}, '%')</if>
+            <if test="house != null  and house != ''"> and house = #{house}</if>
+            <if test="car != null  and car != ''"> and car like = #{car}</if>
+            <if test="maritalStatus != null  and maritalStatus != ''"> and marital_status = #{maritalStatus}</if>
+            <if test="status != null  and status != ''"> and status = #{status}</if>
+            <if test="blood != null  and blood != ''"> and blood = #{blood}</if>
+        </where>
+    </select>
+    
+    <select id="selectHunCustomById" parameterType="Long" resultMap="HunCustomResult">
+        <include refid="selectHunCustomVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertHunCustom" parameterType="HunCustom" useGeneratedKeys="true" keyProperty="id">
+        insert into hun_custom
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="delFlag != null  and delFlag != ''">del_flag,</if>
+            <if test="status != null  and status != ''">status,</if>
+            <if test="createBy != null  and createBy != ''">create_by,</if>
+            <if test="createTime != null ">create_time,</if>
+            <if test="updateBy != null  and updateBy != ''">update_by,</if>
+            <if test="updateTime != null ">update_time,</if>
+            <if test="remark != null  and remark != ''">remark,</if>
+            <if test="parse1 != null  and parse1 != ''">parse1,</if>
+            <if test="parse2 != null  and parse2 != ''">parse2,</if>
+            <if test="parse3 != null  and parse3 != ''">parse3,</if>
+            <if test="parse4 != null  and parse4 != ''">parse4,</if>
+            <if test="name != null  and name != ''">name,</if>
+            <if test="sex != null  and sex != ''">sex,</if>
+            <if test="nation != null  and nation != ''">nation,</if>
+            <if test="birthday != null ">birthday,</if>
+            <if test="nativePlace != null  and nativePlace != ''">native_place,</if>
+            <if test="blood != null  and blood != ''">blood,</if>
+            <if test="idCard != null  and idCard != ''">id_card,</if>
+            <if test="height != null  and height != ''">height,</if>
+            <if test="weight != null  and weight != ''">weight,</if>
+            <if test="physicalCondition != null  and physicalCondition != ''">physical_condition,</if>
+            <if test="hobby != null  and hobby != ''">hobby,</if>
+            <if test="graduationCollage != null  and graduationCollage != ''">graduation_collage,</if>
+            <if test="education != null  and education != ''">education,</if>
+            <if test="job != null  and job != ''">job,</if>
+            <if test="jobAddr != null  and jobAddr != ''">job_addr,</if>
+            <if test="pic != null  and pic != ''">pic,</if>
+            <if test="homeAddr != null  and homeAddr != ''">home_addr,</if>
+            <if test="homeDesc != null  and homeDesc != ''">home_desc,</if>
+            <if test="phone != null  and phone != ''">phone,</if>
+            <if test="wechat != null  and wechat != ''">wechat,</if>
+            <if test="qq != null  and qq != ''">qq,</if>
+            <if test="email != null  and email != ''">email,</if>
+            <if test="maritalStatus != null  and maritalStatus != ''">marital_status,</if>
+            <if test="salary != null  and salary != ''">salary,</if>
+            <if test="house != null  and house != ''">house,</if>
+            <if test="houseDesc != null  and houseDesc != ''">house_desc,</if>
+            <if test="car != null  and car != ''">car,</if>
+            <if test="carDesc != null  and carDesc != ''">car_desc,</if>
+            <if test="agent != null  and agent != ''">agent,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="delFlag != null  and delFlag != ''">#{delFlag},</if>
+            <if test="status != null  and status != ''">#{status},</if>
+            <if test="createBy != null  and createBy != ''">#{createBy},</if>
+            <if test="createTime != null ">#{createTime},</if>
+            <if test="updateBy != null  and updateBy != ''">#{updateBy},</if>
+            <if test="updateTime != null ">#{updateTime},</if>
+            <if test="remark != null  and remark != ''">#{remark},</if>
+            <if test="parse1 != null  and parse1 != ''">#{parse1},</if>
+            <if test="parse2 != null  and parse2 != ''">#{parse2},</if>
+            <if test="parse3 != null  and parse3 != ''">#{parse3},</if>
+            <if test="parse4 != null  and parse4 != ''">#{parse4},</if>
+            <if test="name != null  and name != ''">#{name},</if>
+            <if test="sex != null  and sex != ''">#{sex},</if>
+            <if test="nation != null  and nation != ''">#{nation},</if>
+            <if test="birthday != null ">#{birthday},</if>
+            <if test="nativePlace != null  and nativePlace != ''">#{nativePlace},</if>
+            <if test="blood != null  and blood != ''">#{blood},</if>
+            <if test="idCard != null  and idCard != ''">#{idCard},</if>
+            <if test="height != null  and height != ''">#{height},</if>
+            <if test="weight != null  and weight != ''">#{weight},</if>
+            <if test="physicalCondition != null  and physicalCondition != ''">#{physicalCondition},</if>
+            <if test="hobby != null  and hobby != ''">#{hobby},</if>
+            <if test="graduationCollage != null  and graduationCollage != ''">#{graduationCollage},</if>
+            <if test="education != null  and education != ''">#{education},</if>
+            <if test="job != null  and job != ''">#{job},</if>
+            <if test="jobAddr != null  and jobAddr != ''">#{jobAddr},</if>
+            <if test="pic != null  and pic != ''">#{pic},</if>
+            <if test="homeAddr != null  and homeAddr != ''">#{homeAddr},</if>
+            <if test="homeDesc != null  and homeDesc != ''">#{homeDesc},</if>
+            <if test="phone != null  and phone != ''">#{phone},</if>
+            <if test="wechat != null  and wechat != ''">#{wechat},</if>
+            <if test="qq != null  and qq != ''">#{qq},</if>
+            <if test="email != null  and email != ''">#{email},</if>
+            <if test="maritalStatus != null  and maritalStatus != ''">#{maritalStatus},</if>
+            <if test="salary != null  and salary != ''">#{salary},</if>
+            <if test="house != null  and house != ''">#{house},</if>
+            <if test="houseDesc != null  and houseDesc != ''">#{houseDesc},</if>
+            <if test="car != null  and car != ''">#{car},</if>
+            <if test="carDesc != null  and carDesc != ''">#{carDesc},</if>
+            <if test="agent != null  and agent != ''">#{agent},</if>
+         </trim>
+    </insert>
+
+    <update id="updateHunCustom" parameterType="HunCustom">
+        update hun_custom
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="delFlag != null  and delFlag != ''">del_flag = #{delFlag},</if>
+            <if test="status != null  and status != ''">status = #{status},</if>
+            <if test="createBy != null  and createBy != ''">create_by = #{createBy},</if>
+            <if test="createTime != null ">create_time = #{createTime},</if>
+            <if test="updateBy != null  and updateBy != ''">update_by = #{updateBy},</if>
+            <if test="updateTime != null ">update_time = #{updateTime},</if>
+            <if test="remark != null  and remark != ''">remark = #{remark},</if>
+            <if test="parse1 != null  and parse1 != ''">parse1 = #{parse1},</if>
+            <if test="parse2 != null  and parse2 != ''">parse2 = #{parse2},</if>
+            <if test="parse3 != null  and parse3 != ''">parse3 = #{parse3},</if>
+            <if test="parse4 != null  and parse4 != ''">parse4 = #{parse4},</if>
+            <if test="name != null  and name != ''">name = #{name},</if>
+            <if test="sex != null  and sex != ''">sex = #{sex},</if>
+            <if test="nation != null  and nation != ''">nation = #{nation},</if>
+            <if test="birthday != null ">birthday = #{birthday},</if>
+            <if test="nativePlace != null  and nativePlace != ''">native_place = #{nativePlace},</if>
+            <if test="blood != null  and blood != ''">blood = #{blood},</if>
+            <if test="idCard != null  and idCard != ''">id_card = #{idCard},</if>
+            <if test="height != null  and height != ''">height = #{height},</if>
+            <if test="weight != null  and weight != ''">weight = #{weight},</if>
+            <if test="physicalCondition != null  and physicalCondition != ''">physical_condition = #{physicalCondition},</if>
+            <if test="hobby != null  and hobby != ''">hobby = #{hobby},</if>
+            <if test="graduationCollage != null  and graduationCollage != ''">graduation_collage = #{graduationCollage},</if>
+            <if test="education != null  and education != ''">education = #{education},</if>
+            <if test="job != null  and job != ''">job = #{job},</if>
+            <if test="jobAddr != null  and jobAddr != ''">job_addr = #{jobAddr},</if>
+            <if test="pic != null  and pic != ''">pic = #{pic},</if>
+            <if test="homeAddr != null  and homeAddr != ''">home_addr = #{homeAddr},</if>
+            <if test="homeDesc != null  and homeDesc != ''">home_desc = #{homeDesc},</if>
+            <if test="phone != null  and phone != ''">phone = #{phone},</if>
+            <if test="wechat != null  and wechat != ''">wechat = #{wechat},</if>
+            <if test="qq != null  and qq != ''">qq = #{qq},</if>
+            <if test="email != null  and email != ''">email = #{email},</if>
+            <if test="maritalStatus != null  and maritalStatus != ''">marital_status = #{maritalStatus},</if>
+            <if test="salary != null  and salary != ''">salary = #{salary},</if>
+            <if test="house != null  and house != ''">house = #{house},</if>
+            <if test="houseDesc != null  and houseDesc != ''">house_desc = #{houseDesc},</if>
+            <if test="car != null  and car != ''">car = #{car},</if>
+            <if test="carDesc != null  and carDesc != ''">car_desc = #{carDesc},</if>
+            <if test="agent != null  and agent != ''">agent = #{agent},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteHunCustomById" parameterType="Long">
+        delete from hun_custom where id = #{id}
+    </delete>
+
+    <delete id="deleteHunCustomByIds" parameterType="String">
+        delete from hun_custom where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    
+</mapper>

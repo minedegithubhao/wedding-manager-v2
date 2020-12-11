@@ -1,0 +1,134 @@
+2020-11-18 21:49:22,417 - ResourceManager : found vm/java/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-18 21:49:22,420 - ResourceManager : found vm/java/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-18 21:49:22,427 - ResourceManager : found vm/xml/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-18 21:49:22,430 - ResourceManager : found vm/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-18 21:49:22,435 - ResourceManager : found vm/vue/list.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-18 21:49:22,436 - Null reference [template 'vm/vue/list.vue.vm', line 39, column 48] : $refs.table.refresh(true) cannot be resolved.
+2020-11-18 21:49:22,436 - Null reference [template 'vm/vue/list.vue.vm', line 47, column 69] : $refs.modal.add() cannot be resolved.
+2020-11-18 21:49:22,436 - Null reference [template 'vm/vue/list.vue.vm', line 104, column 18] : $form.createForm(this) cannot be resolved.
+2020-11-18 21:49:22,436 - Null reference [template 'vm/vue/list.vue.vm', line 199, column 12] : $refs.modal.add() cannot be resolved.
+2020-11-18 21:49:22,436 - Null reference [template 'vm/vue/list.vue.vm', line 202, column 12] : $refs.modal.edit(record) cannot be resolved.
+2020-11-18 21:49:22,436 - Null reference [template 'vm/vue/list.vue.vm', line 205, column 12] : $refs.table.refresh(true) cannot be resolved.
+2020-11-18 21:49:22,440 - ResourceManager : found vm/vue/modal.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-18 21:49:22,441 - Null reference [template 'vm/vue/modal.vue.vm', line 117, column 18] : $form.createForm(this) cannot be resolved.
+2020-11-18 21:49:22,442 - Null reference [template 'vm/vue/modal.vue.vm', line 144, column 12] : $nextTick cannot be resolved.
+2020-11-18 21:49:22,442 - Null reference [template 'vm/vue/modal.vue.vm', line 157, column 20] : $emit cannot be resolved.
+2020-11-18 21:49:22,442 - Null reference [template 'vm/vue/modal.vue.vm', line 163, column 18] : $message.error('系统错误，请稍后再试') cannot be resolved.
+2020-11-18 21:49:22,444 - ResourceManager : found vm/sql/sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 16:59:52,541 - Log4JLogChute initialized using file 'velocity.log'
+2020-11-21 16:59:52,542 - Initializing Velocity, Calling init()...
+2020-11-21 16:59:52,542 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2020-11-21 16:59:52,542 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2020-11-21 16:59:52,542 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2020-11-21 16:59:52,542 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/Priority).  Falling back to next log system...
+2020-11-21 16:59:52,542 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2020-11-21 16:59:52,542 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2020-11-21 16:59:52,546 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 16:59:52,560 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2020-11-21 16:59:52,562 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2020-11-21 16:59:52,564 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2020-11-21 16:59:52,564 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2020-11-21 16:59:52,565 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2020-11-21 16:59:52,565 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2020-11-21 16:59:52,566 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2020-11-21 16:59:52,567 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2020-11-21 16:59:52,568 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2020-11-21 16:59:52,568 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2020-11-21 16:59:52,581 - Created '20' parsers.
+2020-11-21 16:59:52,584 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2020-11-21 16:59:52,587 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2020-11-21 16:59:52,587 - Velocimacro : Default library not found.
+2020-11-21 16:59:52,587 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2020-11-21 16:59:52,587 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2020-11-21 16:59:52,587 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2020-11-21 16:59:52,587 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2020-11-21 16:59:52,624 - ResourceManager : found vm/java/domain.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 16:59:52,647 - ResourceManager : found vm/java/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 16:59:52,651 - ResourceManager : found vm/java/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 16:59:52,658 - ResourceManager : found vm/java/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 16:59:52,662 - ResourceManager : found vm/java/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 16:59:52,668 - ResourceManager : found vm/xml/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 16:59:52,673 - ResourceManager : found vm/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 16:59:52,679 - ResourceManager : found vm/vue/list.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 16:59:52,681 - Null reference [template 'vm/vue/list.vue.vm', line 39, column 48] : $refs.table.refresh(true) cannot be resolved.
+2020-11-21 16:59:52,681 - Null reference [template 'vm/vue/list.vue.vm', line 47, column 69] : $refs.modal.add() cannot be resolved.
+2020-11-21 16:59:52,681 - Null reference [template 'vm/vue/list.vue.vm', line 49, column 36] : ${selectedRowKeys.length} cannot be resolved.
+2020-11-21 16:59:52,681 - Null reference [template 'vm/vue/list.vue.vm', line 115, column 18] : $form.createForm(this) cannot be resolved.
+2020-11-21 16:59:52,682 - Null reference [template 'vm/vue/list.vue.vm', line 211, column 12] : $refs.modal.add() cannot be resolved.
+2020-11-21 16:59:52,682 - Null reference [template 'vm/vue/list.vue.vm', line 214, column 12] : $refs.modal.edit(record) cannot be resolved.
+2020-11-21 16:59:52,682 - Null reference [template 'vm/vue/list.vue.vm', line 217, column 12] : $refs.table.refresh(true) cannot be resolved.
+2020-11-21 16:59:52,688 - ResourceManager : found vm/vue/modal.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 16:59:52,689 - Null reference [template 'vm/vue/modal.vue.vm', line 117, column 18] : $form.createForm(this) cannot be resolved.
+2020-11-21 16:59:52,689 - Null reference [template 'vm/vue/modal.vue.vm', line 144, column 12] : $nextTick cannot be resolved.
+2020-11-21 16:59:52,690 - Null reference [template 'vm/vue/modal.vue.vm', line 157, column 20] : $emit cannot be resolved.
+2020-11-21 16:59:52,690 - Null reference [template 'vm/vue/modal.vue.vm', line 163, column 18] : $message.error('系统错误，请稍后再试') cannot be resolved.
+2020-11-21 16:59:52,693 - ResourceManager : found vm/sql/sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:00:15,435 - ResourceManager : found vm/java/domain.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:00:15,438 - ResourceManager : found vm/java/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:00:15,440 - ResourceManager : found vm/java/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:00:15,444 - ResourceManager : found vm/java/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:00:15,446 - ResourceManager : found vm/java/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:00:15,450 - ResourceManager : found vm/xml/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:00:15,452 - ResourceManager : found vm/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:00:15,456 - ResourceManager : found vm/vue/list.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:00:15,457 - Null reference [template 'vm/vue/list.vue.vm', line 39, column 48] : $refs.table.refresh(true) cannot be resolved.
+2020-11-21 17:00:15,457 - Null reference [template 'vm/vue/list.vue.vm', line 47, column 69] : $refs.modal.add() cannot be resolved.
+2020-11-21 17:00:15,457 - Null reference [template 'vm/vue/list.vue.vm', line 49, column 36] : ${selectedRowKeys.length} cannot be resolved.
+2020-11-21 17:00:15,457 - Null reference [template 'vm/vue/list.vue.vm', line 115, column 18] : $form.createForm(this) cannot be resolved.
+2020-11-21 17:00:15,458 - Null reference [template 'vm/vue/list.vue.vm', line 211, column 12] : $refs.modal.add() cannot be resolved.
+2020-11-21 17:00:15,458 - Null reference [template 'vm/vue/list.vue.vm', line 214, column 12] : $refs.modal.edit(record) cannot be resolved.
+2020-11-21 17:00:15,458 - Null reference [template 'vm/vue/list.vue.vm', line 217, column 12] : $refs.table.refresh(true) cannot be resolved.
+2020-11-21 17:00:15,462 - ResourceManager : found vm/vue/modal.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:00:15,462 - Null reference [template 'vm/vue/modal.vue.vm', line 117, column 18] : $form.createForm(this) cannot be resolved.
+2020-11-21 17:00:15,463 - Null reference [template 'vm/vue/modal.vue.vm', line 144, column 12] : $nextTick cannot be resolved.
+2020-11-21 17:00:15,463 - Null reference [template 'vm/vue/modal.vue.vm', line 157, column 20] : $emit cannot be resolved.
+2020-11-21 17:00:15,463 - Null reference [template 'vm/vue/modal.vue.vm', line 163, column 18] : $message.error('系统错误，请稍后再试') cannot be resolved.
+2020-11-21 17:00:15,464 - ResourceManager : found vm/sql/sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:32:39,651 - Log4JLogChute initialized using file 'velocity.log'
+2020-11-21 17:32:39,651 - Initializing Velocity, Calling init()...
+2020-11-21 17:32:39,652 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2020-11-21 17:32:39,652 - Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+2020-11-21 17:32:39,652 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2020-11-21 17:32:39,652 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/Priority).  Falling back to next log system...
+2020-11-21 17:32:39,652 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2020-11-21 17:32:39,652 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2020-11-21 17:32:39,655 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:32:39,663 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2020-11-21 17:32:39,665 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2020-11-21 17:32:39,666 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2020-11-21 17:32:39,666 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2020-11-21 17:32:39,667 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2020-11-21 17:32:39,667 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2020-11-21 17:32:39,667 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2020-11-21 17:32:39,668 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2020-11-21 17:32:39,669 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2020-11-21 17:32:39,669 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2020-11-21 17:32:39,680 - Created '20' parsers.
+2020-11-21 17:32:39,682 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2020-11-21 17:32:39,683 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2020-11-21 17:32:39,683 - Velocimacro : Default library not found.
+2020-11-21 17:32:39,683 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2020-11-21 17:32:39,683 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2020-11-21 17:32:39,683 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2020-11-21 17:32:39,683 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2020-11-21 17:32:39,718 - ResourceManager : found vm/java/domain.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:32:39,736 - ResourceManager : found vm/java/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:32:39,738 - ResourceManager : found vm/java/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:32:39,745 - ResourceManager : found vm/java/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:32:39,748 - ResourceManager : found vm/java/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:32:39,754 - ResourceManager : found vm/xml/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:32:39,758 - ResourceManager : found vm/vue/api.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:32:39,764 - ResourceManager : found vm/vue/list.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:32:39,765 - Null reference [template 'vm/vue/list.vue.vm', line 39, column 48] : $refs.table.refresh(true) cannot be resolved.
+2020-11-21 17:32:39,765 - Null reference [template 'vm/vue/list.vue.vm', line 47, column 69] : $refs.modal.add() cannot be resolved.
+2020-11-21 17:32:39,765 - Null reference [template 'vm/vue/list.vue.vm', line 49, column 36] : ${selectedRowKeys.length} cannot be resolved.
+2020-11-21 17:32:39,765 - Null reference [template 'vm/vue/list.vue.vm', line 115, column 18] : $form.createForm(this) cannot be resolved.
+2020-11-21 17:32:39,766 - Null reference [template 'vm/vue/list.vue.vm', line 211, column 12] : $refs.modal.add() cannot be resolved.
+2020-11-21 17:32:39,767 - Null reference [template 'vm/vue/list.vue.vm', line 214, column 12] : $refs.modal.edit(record) cannot be resolved.
+2020-11-21 17:32:39,767 - Null reference [template 'vm/vue/list.vue.vm', line 217, column 12] : $refs.table.refresh(true) cannot be resolved.
+2020-11-21 17:32:39,771 - ResourceManager : found vm/vue/modal.vue.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-11-21 17:32:39,772 - Null reference [template 'vm/vue/modal.vue.vm', line 117, column 18] : $form.createForm(this) cannot be resolved.
+2020-11-21 17:32:39,772 - Null reference [template 'vm/vue/modal.vue.vm', line 144, column 12] : $nextTick cannot be resolved.
+2020-11-21 17:32:39,773 - Null reference [template 'vm/vue/modal.vue.vm', line 157, column 20] : $emit cannot be resolved.
+2020-11-21 17:32:39,773 - Null reference [template 'vm/vue/modal.vue.vm', line 163, column 18] : $message.error('系统错误，请稍后再试') cannot be resolved.
+2020-11-21 17:32:39,775 - ResourceManager : found vm/sql/sql.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader

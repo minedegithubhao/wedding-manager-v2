@@ -1,0 +1,133 @@
+19:47:18.120 [Thread-20] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+19:47:18.181 [Thread-20] INFO  o.s.s.q.SchedulerFactoryBean - [destroy,844] - Shutting down Quartz Scheduler
+19:47:18.182 [Thread-20] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+19:47:18.182 [Thread-20] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+19:47:18.185 [Thread-20] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+19:47:18.200 [Thread-20] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,208] - Shutting down ExecutorService 'threadPoolTaskExecutor'
+19:47:18.214 [Thread-20] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+19:47:18.224 [Thread-20] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+23:56:28.498 [main] INFO  c.q.v.a.RunApplication - [logStarting,50] - Starting RunApplication on cxdpcdeMacBook-Pro.local with PID 6932 (/Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager/target/classes started by cxdpc in /Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager)
+23:56:28.505 [main] INFO  c.q.v.a.RunApplication - [logStartupProfileInfo,679] - The following profiles are active: online
+23:56:28.571 [main] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23:56:30.027 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+23:56:30.031 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+23:56:30.110 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 54ms. Found 0 repository interfaces.
+23:56:30.575 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$16840a40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:56:30.652 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$50184c12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:56:30.885 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e8c6144c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:56:30.893 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:56:30.898 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@17fbfb02' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:56:30.903 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$d9ab6fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:56:30.918 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:56:31.409 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+23:56:31.429 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+23:56:31.435 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:56:31.435 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+23:56:31.444 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/cxdpc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23:56:31.562 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:56:31.562 [main] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 2991 ms
+23:56:33.198 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'xssFilter' to urls: [/system/*, /monitor/*, /tool/*, /pts/sys/*]
+23:56:33.199 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:56:33.199 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:56:33.199 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+23:56:33.199 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+23:56:33.200 [main] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - [configure,248] - Mapping filter: 'springSecurityFilterChain' to: [/*]
+23:56:33.200 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'object' to urls: [/druid/js/common.js]
+23:56:33.200 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'repeatableFilter' to urls: [/*]
+23:56:33.200 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'webStatFilter' to urls: [/*]
+23:56:33.200 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'jwtAuthenticationTokenFilter' to: [/*]
+23:56:33.201 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+23:56:33.203 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet statViewServlet mapped to [/druid/*]
+23:56:34.872 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+23:56:34.923 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'threadPoolTaskExecutor'
+23:56:36.053 [main] INFO  o.f.c.i.l.VersionPrinter - [info,49] - Flyway Community Edition 5.2.1 by Boxfuse
+23:56:36.803 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+23:56:36.805 [main] INFO  o.f.c.i.d.DatabaseFactory - [info,49] - Database: jdbc:mysql://127.0.0.1:3306/hun (MySQL 5.7)
+23:56:37.214 [main] INFO  o.f.c.i.c.DbValidate - [info,49] - Successfully validated 4 migrations (execution time 00:00.242s)
+23:56:37.227 [main] INFO  o.f.c.i.c.DbMigrate - [info,49] - Current version of schema `hun`: 1.0.0.1.3
+23:56:37.228 [main] INFO  o.f.c.i.c.DbMigrate - [info,49] - Schema `hun` is up to date. No migration necessary.
+23:56:37.551 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+23:56:37.572 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:56:37.572 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+23:56:37.573 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+23:56:37.574 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+23:56:37.574 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+23:56:37.574 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+23:56:37.575 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2ac0cb64
+23:56:37.788 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - [<init>,43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65192f16, org.springframework.security.web.context.SecurityContextPersistenceFilter@51a73873, org.springframework.security.web.header.HeaderWriterFilter@58829c2c, org.springframework.security.web.authentication.logout.LogoutFilter@4f239a76, com.qh.venus.achilles.framework.security.filter.JwtAuthenticationTokenFilter@611a2d82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7305191e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c7b27c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ab8c972, org.springframework.security.web.session.SessionManagementFilter@4ebd0b52, org.springframework.security.web.access.ExceptionTranslationFilter@31c29db1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ddc5a75]
+23:56:38.026 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+23:56:38.059 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+23:56:38.107 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+23:56:38.211 [main] INFO  o.s.s.q.SchedulerFactoryBean - [startScheduler,726] - Starting Quartz Scheduler now
+23:56:38.212 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+23:56:38.220 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+23:56:38.238 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+23:56:38.257 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path ''
+23:56:38.261 [main] INFO  c.q.v.a.RunApplication - [logStarted,59] - Started RunApplication in 10.387 seconds (JVM running for 11.354)
+23:58:04.965 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:58:04.965 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+23:58:04.999 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 33 ms
+23:58:05.031 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+23:58:07.071 [http-nio-8080-exec-1] INFO  i.l.c.EpollProvider - [info,101] - Starting without optional epoll library
+23:58:07.072 [http-nio-8080-exec-1] INFO  i.l.c.KqueueProvider - [info,101] - Starting without optional kqueue library
+23:58:11.891 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+23:59:10.340 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+23:59:10.763 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[admin][Success][登录成功]
+23:59:10.901 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+23:59:11.054 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+23:59:11.111 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+23:59:11.284 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/19/feb3b2017673a9e2fc42740909d22dae.png
+23:59:11.284 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/19/b9e7c4ee52ce7fef7c26439db1467e9a.png
+23:59:11.541 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list/enable
+23:59:11.541 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/list
+23:59:11.543 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/all
+23:59:16.136 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:16.137 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:16.138 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:16.144 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:16.144 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:16.144 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/member/hunMember/list
+23:59:16.183 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:16.230 [threadPoolTaskExecutor-1] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除会员管理, businessType=10, method=com.qh.venus.achilles.pts.member.controller.HunMemberController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/member/hunMember/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+23:59:18.347 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.349 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.349 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.349 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.353 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.353 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.379 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.380 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:59:18.384 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.384 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.384 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.384 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.404 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.404 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:59:18.477 [threadPoolTaskExecutor-2] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:59:44.654 [Thread-24] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+23:59:44.657 [Thread-24] INFO  o.s.s.q.SchedulerFactoryBean - [destroy,844] - Shutting down Quartz Scheduler
+23:59:44.657 [Thread-24] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+23:59:44.657 [Thread-24] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+23:59:44.658 [Thread-24] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+23:59:44.660 [Thread-24] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,208] - Shutting down ExecutorService 'threadPoolTaskExecutor'
+23:59:44.662 [Thread-24] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+23:59:44.673 [Thread-24] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qh.venus.achilles.pts.matchmaker.mapper.HunMatchmakerMapper">
+    
+    <resultMap type="HunMatchmaker" id="HunMatchmakerResult">
+        <result property="id"    column="id"    />
+        <result property="delFlag"    column="del_flag"    />
+        <result property="status"    column="status"    />
+        <result property="createBy"    column="create_by"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateBy"    column="update_by"    />
+        <result property="updateTime"    column="update_time"    />
+        <result property="remark"    column="remark"    />
+        <result property="parse1"    column="parse1"    />
+        <result property="parse2"    column="parse2"    />
+        <result property="parse3"    column="parse3"    />
+        <result property="parse4"    column="parse4"    />
+        <result property="parse5"    column="parse5"    />
+        <result property="name"    column="name"    />
+        <result property="sex"    column="sex"    />
+        <result property="birthday"    column="birthday"    />
+        <result property="homeAddr"    column="home_addr"    />
+        <result property="phone"    column="phone"    />
+        <result property="wechat"    column="wechat"    />
+        <result property="qq"    column="qq"    />
+        <result property="email"    column="email"    />
+        <result property="type"    column="type"    />
+        <result property="source"    column="source"    />
+        <result property="presentType"    column="present_type"    />
+        <result property="persentValue"    column="persent_value"    />
+    </resultMap>
+
+    <sql id="selectHunMatchmakerVo">
+        select id, del_flag, status, create_by, create_time, update_by, update_time, remark, parse1, parse2, parse3, parse4, parse5, name, sex, birthday, home_addr, phone, wechat, qq, email, type, source, present_type, persent_value from hun_matchmaker
+    </sql>
+
+    <select id="selectHunMatchmakerList" parameterType="HunMatchmaker" resultMap="HunMatchmakerResult">
+        <include refid="selectHunMatchmakerVo"/>
+        <where>  
+            <if test="name != null  and name != ''"> and name like concat('%', #{name}, '%')</if>
+            <if test="sex != null  and sex != ''"> and sex = #{sex}</if>
+            <if test="phone != null  and phone != ''"> and phone like concat(#{phone}, '%')</if>
+        </where>
+    </select>
+    
+    <select id="selectHunMatchmakerById" parameterType="Long" resultMap="HunMatchmakerResult">
+        <include refid="selectHunMatchmakerVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertHunMatchmaker" parameterType="HunMatchmaker" useGeneratedKeys="true" keyProperty="id">
+        insert into hun_matchmaker
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="delFlag != null  and delFlag != ''">del_flag,</if>
+            <if test="status != null  and status != ''">status,</if>
+            <if test="createBy != null  and createBy != ''">create_by,</if>
+            <if test="createTime != null ">create_time,</if>
+            <if test="updateBy != null  and updateBy != ''">update_by,</if>
+            <if test="updateTime != null ">update_time,</if>
+            <if test="remark != null  and remark != ''">remark,</if>
+            <if test="parse1 != null  and parse1 != ''">parse1,</if>
+            <if test="parse2 != null  and parse2 != ''">parse2,</if>
+            <if test="parse3 != null  and parse3 != ''">parse3,</if>
+            <if test="parse4 != null  and parse4 != ''">parse4,</if>
+            <if test="parse5 != null  and parse5 != ''">parse5,</if>
+            <if test="name != null  and name != ''">name,</if>
+            <if test="sex != null  and sex != ''">sex,</if>
+            <if test="birthday != null ">birthday,</if>
+            <if test="homeAddr != null  and homeAddr != ''">home_addr,</if>
+            <if test="phone != null  and phone != ''">phone,</if>
+            <if test="wechat != null  and wechat != ''">wechat,</if>
+            <if test="qq != null  and qq != ''">qq,</if>
+            <if test="email != null  and email != ''">email,</if>
+            <if test="type != null  and type != ''">type,</if>
+            <if test="source != null  and source != ''">source,</if>
+            <if test="presentType != null  and presentType != ''">present_type,</if>
+            <if test="persentValue != null  and persentValue != ''">persent_value,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="delFlag != null  and delFlag != ''">#{delFlag},</if>
+            <if test="status != null  and status != ''">#{status},</if>
+            <if test="createBy != null  and createBy != ''">#{createBy},</if>
+            <if test="createTime != null ">#{createTime},</if>
+            <if test="updateBy != null  and updateBy != ''">#{updateBy},</if>
+            <if test="updateTime != null ">#{updateTime},</if>
+            <if test="remark != null  and remark != ''">#{remark},</if>
+            <if test="parse1 != null  and parse1 != ''">#{parse1},</if>
+            <if test="parse2 != null  and parse2 != ''">#{parse2},</if>
+            <if test="parse3 != null  and parse3 != ''">#{parse3},</if>
+            <if test="parse4 != null  and parse4 != ''">#{parse4},</if>
+            <if test="parse5 != null  and parse5 != ''">#{parse5},</if>
+            <if test="name != null  and name != ''">#{name},</if>
+            <if test="sex != null  and sex != ''">#{sex},</if>
+            <if test="birthday != null ">#{birthday},</if>
+            <if test="homeAddr != null  and homeAddr != ''">#{homeAddr},</if>
+            <if test="phone != null  and phone != ''">#{phone},</if>
+            <if test="wechat != null  and wechat != ''">#{wechat},</if>
+            <if test="qq != null  and qq != ''">#{qq},</if>
+            <if test="email != null  and email != ''">#{email},</if>
+            <if test="type != null  and type != ''">#{type},</if>
+            <if test="source != null  and source != ''">#{source},</if>
+            <if test="presentType != null  and presentType != ''">#{presentType},</if>
+            <if test="persentValue != null  and persentValue != ''">#{persentValue},</if>
+         </trim>
+    </insert>
+
+    <update id="updateHunMatchmaker" parameterType="HunMatchmaker">
+        update hun_matchmaker
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="delFlag != null  and delFlag != ''">del_flag = #{delFlag},</if>
+            <if test="status != null  and status != ''">status = #{status},</if>
+            <if test="createBy != null  and createBy != ''">create_by = #{createBy},</if>
+            <if test="createTime != null ">create_time = #{createTime},</if>
+            <if test="updateBy != null  and updateBy != ''">update_by = #{updateBy},</if>
+            <if test="updateTime != null ">update_time = #{updateTime},</if>
+            <if test="remark != null  and remark != ''">remark = #{remark},</if>
+            <if test="parse1 != null  and parse1 != ''">parse1 = #{parse1},</if>
+            <if test="parse2 != null  and parse2 != ''">parse2 = #{parse2},</if>
+            <if test="parse3 != null  and parse3 != ''">parse3 = #{parse3},</if>
+            <if test="parse4 != null  and parse4 != ''">parse4 = #{parse4},</if>
+            <if test="parse5 != null  and parse5 != ''">parse5 = #{parse5},</if>
+            name = #{name},
+            sex = #{sex},
+            birthday = #{birthday},
+            home_addr = #{homeAddr},
+            <if test="phone != null  and phone != ''">phone = #{phone},</if>
+            <if test="wechat != null  and wechat != ''">wechat = #{wechat},</if>
+            qq = #{qq},
+            <if test="email != null  and email != ''">email = #{email},</if>
+            <if test="type != null  and type != ''">type = #{type},</if>
+            <if test="source != null  and source != ''">source = #{source},</if>
+            <if test="presentType != null  and presentType != ''">present_type = #{presentType},</if>
+            persent_value = #{persentValue}
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteHunMatchmakerById" parameterType="Long">
+        delete from hun_matchmaker where id = #{id}
+    </delete>
+
+    <delete id="deleteHunMatchmakerByIds" parameterType="String">
+        delete from hun_matchmaker where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    
+</mapper>

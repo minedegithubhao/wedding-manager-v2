@@ -1,0 +1,1648 @@
+22:19:13.092 [main] INFO  c.q.v.a.RunApplication - [logStarting,50] - Starting RunApplication on cxdpcdeMacBook-Pro.local with PID 924 (/Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager/target/classes started by cxdpc in /Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager)
+22:19:13.099 [main] INFO  c.q.v.a.RunApplication - [logStartupProfileInfo,679] - The following profiles are active: online
+22:19:13.176 [main] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:19:14.508 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+22:19:14.512 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+22:19:14.585 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+22:19:15.089 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$5ec487aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:19:15.172 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9858c97c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:19:15.416 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$310691b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:19:15.425 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:19:15.429 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1471b98d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:19:15.433 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$55db3468] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:19:15.449 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:19:15.947 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+22:19:15.967 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:19:15.973 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:19:15.974 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+22:19:15.984 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/cxdpc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22:19:16.098 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:19:16.098 [main] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 2921 ms
+22:19:17.690 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'xssFilter' to urls: [/system/*, /monitor/*, /tool/*, /pts/sys/*]
+22:19:17.691 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+22:19:17.691 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+22:19:17.691 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+22:19:17.691 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+22:19:17.692 [main] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - [configure,248] - Mapping filter: 'springSecurityFilterChain' to: [/*]
+22:19:17.692 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'object' to urls: [/druid/js/common.js]
+22:19:17.693 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'repeatableFilter' to urls: [/*]
+22:19:17.693 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'webStatFilter' to urls: [/*]
+22:19:17.693 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'jwtAuthenticationTokenFilter' to: [/*]
+22:19:17.693 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+22:19:17.695 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet statViewServlet mapped to [/druid/*]
+22:19:19.409 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:19:19.455 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'threadPoolTaskExecutor'
+22:19:20.525 [main] INFO  o.f.c.i.l.VersionPrinter - [info,49] - Flyway Community Edition 5.2.1 by Boxfuse
+22:19:38.366 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:19:38.369 [main] INFO  o.f.c.i.d.DatabaseFactory - [info,49] - Database: jdbc:mysql://182.92.7.68:3306/hun (MySQL 5.7)
+22:19:39.296 [main] INFO  o.f.c.i.c.DbValidate - [info,49] - Successfully validated 4 migrations (execution time 00:00.513s)
+22:19:39.589 [main] INFO  o.f.c.i.c.DbMigrate - [info,49] - Current version of schema `hun`: 1.0.0.1.3
+22:19:39.625 [main] INFO  o.f.c.i.c.DbMigrate - [info,49] - Schema `hun` is up to date. No migration necessary.
+22:19:40.266 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+22:19:40.303 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:19:40.304 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+22:19:40.305 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+22:19:40.307 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+22:19:40.307 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+22:19:40.307 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+22:19:40.308 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@76b6bad3
+22:19:40.628 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - [<init>,43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b718c45, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cc878e6, org.springframework.security.web.header.HeaderWriterFilter@1dab2cf5, org.springframework.security.web.authentication.logout.LogoutFilter@54a7d1b9, com.qh.venus.achilles.framework.security.filter.JwtAuthenticationTokenFilter@75f8d9b0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57d0c779, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@589a82af, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25639668, org.springframework.security.web.session.SessionManagementFilter@a1c4f69, org.springframework.security.web.access.ExceptionTranslationFilter@702ab027, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e6ec71f]
+22:19:40.873 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:19:40.921 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:19:40.980 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:19:41.144 [main] INFO  o.s.s.q.SchedulerFactoryBean - [startScheduler,726] - Starting Quartz Scheduler now
+22:19:41.144 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+22:19:41.155 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+22:19:41.179 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:19:41.207 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path ''
+22:19:41.213 [main] INFO  c.q.v.a.RunApplication - [logStarted,59] - Started RunApplication in 28.598 seconds (JVM running for 30.499)
+22:21:01.499 [Thread-61] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+22:21:01.504 [Thread-61] INFO  o.s.s.q.SchedulerFactoryBean - [destroy,844] - Shutting down Quartz Scheduler
+22:21:01.505 [Thread-61] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+22:21:01.505 [Thread-61] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+22:21:01.505 [Thread-61] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+22:21:01.507 [Thread-61] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,208] - Shutting down ExecutorService 'threadPoolTaskExecutor'
+22:21:01.509 [Thread-61] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+22:21:01.523 [Thread-61] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+22:21:04.723 [main] INFO  c.q.v.a.RunApplication - [logStarting,50] - Starting RunApplication on cxdpcdeMacBook-Pro.local with PID 971 (/Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager/target/classes started by cxdpc in /Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager)
+22:21:04.726 [main] INFO  c.q.v.a.RunApplication - [logStartupProfileInfo,679] - The following profiles are active: online
+22:21:04.789 [main] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:21:05.807 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+22:21:05.810 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+22:21:05.865 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+22:21:06.290 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$85a01c32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:21:06.382 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf345e04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:21:06.581 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$57e2263e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:21:06.590 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:21:06.594 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@77fc19cf' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:21:06.598 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$7cb6c8f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:21:06.614 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:21:07.075 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+22:21:07.095 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:21:07.103 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:21:07.103 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+22:21:07.114 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/cxdpc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22:21:07.246 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:21:07.247 [main] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 2457 ms
+22:21:08.584 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'xssFilter' to urls: [/system/*, /monitor/*, /tool/*, /pts/sys/*]
+22:21:08.585 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+22:21:08.585 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+22:21:08.585 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+22:21:08.585 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+22:21:08.586 [main] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - [configure,248] - Mapping filter: 'springSecurityFilterChain' to: [/*]
+22:21:08.586 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'object' to urls: [/druid/js/common.js]
+22:21:08.586 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'repeatableFilter' to urls: [/*]
+22:21:08.586 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'webStatFilter' to urls: [/*]
+22:21:08.586 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'jwtAuthenticationTokenFilter' to: [/*]
+22:21:08.587 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+22:21:08.588 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet statViewServlet mapped to [/druid/*]
+22:21:10.100 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:21:10.140 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'threadPoolTaskExecutor'
+22:21:11.232 [main] INFO  o.f.c.i.l.VersionPrinter - [info,49] - Flyway Community Edition 5.2.1 by Boxfuse
+22:21:11.840 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:21:11.846 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,208] - Shutting down ExecutorService 'threadPoolTaskExecutor'
+22:21:11.848 [main] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+22:21:11.854 [main] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+22:21:11.872 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+22:21:11.882 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,142] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+22:22:05.904 [main] INFO  c.q.v.a.RunApplication - [logStarting,50] - Starting RunApplication on cxdpcdeMacBook-Pro.local with PID 983 (/Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager/target/classes started by cxdpc in /Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager)
+22:22:05.908 [main] INFO  c.q.v.a.RunApplication - [logStartupProfileInfo,679] - The following profiles are active: online
+22:22:05.977 [main] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:22:07.019 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+22:22:07.021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+22:22:07.071 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+22:22:07.489 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$151be0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:22:07.557 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3ae5ffdd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:22:07.757 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$d393c817] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:22:07.765 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:22:07.768 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7ab63838' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:22:07.772 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$f8686ac9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:22:07.785 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:22:08.176 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+22:22:08.187 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:22:08.191 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:22:08.191 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+22:22:08.197 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/cxdpc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22:22:08.281 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:22:08.282 [main] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 2305 ms
+22:22:09.624 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'xssFilter' to urls: [/system/*, /monitor/*, /tool/*, /pts/sys/*]
+22:22:09.624 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+22:22:09.625 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+22:22:09.625 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+22:22:09.625 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+22:22:09.625 [main] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - [configure,248] - Mapping filter: 'springSecurityFilterChain' to: [/*]
+22:22:09.626 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'object' to urls: [/druid/js/common.js]
+22:22:09.626 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'repeatableFilter' to urls: [/*]
+22:22:09.626 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'webStatFilter' to urls: [/*]
+22:22:09.626 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'jwtAuthenticationTokenFilter' to: [/*]
+22:22:09.626 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+22:22:09.628 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet statViewServlet mapped to [/druid/*]
+22:22:11.125 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:22:11.173 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'threadPoolTaskExecutor'
+22:22:12.202 [main] INFO  o.f.c.i.l.VersionPrinter - [info,49] - Flyway Community Edition 5.2.1 by Boxfuse
+22:22:12.805 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:22:12.806 [main] INFO  o.f.c.i.d.DatabaseFactory - [info,49] - Database: jdbc:mysql://127.0.0.1:3306/hun (MySQL 5.7)
+22:22:13.175 [main] INFO  o.f.c.i.c.DbValidate - [info,49] - Successfully validated 4 migrations (execution time 00:00.248s)
+22:22:13.187 [main] INFO  o.f.c.i.c.DbMigrate - [info,49] - Current version of schema `hun`: 1.0.0.1.3
+22:22:13.188 [main] INFO  o.f.c.i.c.DbMigrate - [info,49] - Schema `hun` is up to date. No migration necessary.
+22:22:13.443 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+22:22:13.455 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:22:13.455 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+22:22:13.456 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+22:22:13.457 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+22:22:13.457 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+22:22:13.457 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+22:22:13.457 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@52f71d2
+22:22:13.644 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - [<init>,43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48cebb78, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fa3bebe, org.springframework.security.web.header.HeaderWriterFilter@7715d43c, org.springframework.security.web.authentication.logout.LogoutFilter@7057d9f4, com.qh.venus.achilles.framework.security.filter.JwtAuthenticationTokenFilter@2cf88901, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e14ed59, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@623c9988, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45c10678, org.springframework.security.web.session.SessionManagementFilter@554db19d, org.springframework.security.web.access.ExceptionTranslationFilter@3d3c14c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@568e2d65]
+22:22:13.851 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:22:13.879 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:22:13.921 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:22:14.016 [main] INFO  o.s.s.q.SchedulerFactoryBean - [startScheduler,726] - Starting Quartz Scheduler now
+22:22:14.017 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+22:22:14.025 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+22:22:14.042 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:22:14.196 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path ''
+22:22:14.200 [main] INFO  c.q.v.a.RunApplication - [logStarted,59] - Started RunApplication in 8.783 seconds (JVM running for 9.634)
+22:22:36.805 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:22:36.805 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+22:22:36.828 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 23 ms
+22:22:36.849 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+22:22:38.084 [http-nio-8080-exec-1] INFO  i.l.c.EpollProvider - [info,101] - Starting without optional epoll library
+22:22:38.086 [http-nio-8080-exec-1] INFO  i.l.c.KqueueProvider - [info,101] - Starting without optional kqueue library
+22:22:43.196 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+22:22:48.675 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+22:25:14.836 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+22:25:16.963 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+22:25:17.085 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+22:25:17.133 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+22:25:19.796 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+22:25:20.068 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:25:20.175 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+22:25:20.315 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+22:25:20.361 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+22:25:31.142 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/logout
+22:25:32.828 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+22:25:46.735 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+22:25:46.860 [schedule-pool-2] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:25:46.866 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+22:25:46.887 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+22:25:46.903 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+22:25:48.572 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+22:25:48.602 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+22:25:48.617 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+22:25:48.748 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/19/feb3b2017673a9e2fc42740909d22dae.png
+22:25:48.748 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/19/b9e7c4ee52ce7fef7c26439db1467e9a.png
+22:25:49.032 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list/enable
+22:25:49.032 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/list
+22:25:49.034 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/all
+22:25:56.070 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:25:56.070 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:25:56.070 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:25:56.073 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/member/hunMember/list
+22:25:56.151 [threadPoolTaskExecutor-1] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除会员管理, businessType=10, method=com.qh.venus.achilles.pts.member.controller.HunMemberController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/member/hunMember/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+22:26:00.099 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:00.099 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/dating/hunDating/list
+22:26:00.144 [threadPoolTaskExecutor-2] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除相亲, businessType=10, method=com.qh.venus.achilles.pts.dating.controller.HunDatingController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/dating/hunDating/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+22:26:00.567 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:00.567 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:00.567 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:00.567 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:00.567 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:00.573 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:00.597 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+22:26:00.599 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:00.656 [threadPoolTaskExecutor-3] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+22:26:13.808 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:13.808 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:13.826 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysFile/init
+22:26:13.875 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/20/1c676248690209bb1c7b25b931dfc729.jpeg
+22:26:24.254 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.255 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.255 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.255 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.258 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.259 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.277 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.280 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.283 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.289 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/get/4
+22:26:24.289 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.289 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.293 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.296 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:26:24.346 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/20/1c676248690209bb1c7b25b931dfc729.jpeg
+22:26:42.513 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/get/4
+22:26:46.258 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+22:26:46.289 [threadPoolTaskExecutor-4] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+22:26:49.665 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysFile/download
+22:26:49.828 [http-nio-8080-exec-10] INFO  c.q.v.a.c.u.f.FileUtils - [writeBytes,49] - download 155199 byte
+22:27:06.508 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID
+22:27:47.034 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+22:27:48.815 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+22:27:48.816 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/list
+22:27:48.816 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list
+22:27:50.944 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/role/2
+22:28:05.363 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/update
+22:28:05.430 [threadPoolTaskExecutor-5] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=角色管理, businessType=2, method=com.qh.venus.achilles.sms.system.controller.SysRoleController.editSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/system/role/update, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"flag":false,
+		"menuIds":[
+			1000,
+			100,
+			1,
+			1001,
+			1002,
+			1003,
+			1004,
+			1005,
+			1006,
+			1007,
+			101,
+			1008,
+			1009,
+			1010,
+			1011,
+			1012,
+			102,
+			1013,
+			1014,
+			1015,
+			1016,
+			103,
+			1017,
+			1018,
+			1019,
+			1020,
+			104,
+			1021,
+			1022,
+			1023,
+			1024,
+			1025,
+			105,
+			1026,
+			1027,
+			1028,
+			1029,
+			1030,
+			106,
+			1031,
+			1032,
+			1033,
+			1034,
+			1039,
+			500,
+			2,
+			1040,
+			1041,
+			1042,
+			1043,
+			501,
+			1044,
+			1045,
+			1046,
+			109,
+			1047,
+			1048,
+			1057,
+			114,
+			3,
+			2001,
+			2000,
+			2002,
+			2003,
+			2004,
+			2011,
+			2068,
+			2067,
+			2069,
+			2070,
+			2071,
+			2089,
+			2088,
+			2092,
+			2139,
+			2138,
+			2140,
+			2141,
+			2142,
+			2146,
+			2144,
+			2157,
+			2158,
+			2156,
+			2159,
+			2167,
+			2168,
+			1056,
+			2182,
+			2205,
+			2204,
+			2206,
+			2207,
+			2208,
+			2209,
+			2211,
+			2210,
+			2212,
+			2213,
+			2214,
+			2216,
+			2215,
+			2217,
+			2218,
+			2219,
+			2221,
+			2220,
+			2222,
+			2223,
+			2224,
+			2226,
+			2225,
+			2227,
+			2228,
+			2229,
+			2203
+		],
+		"params":{},
+		"roleId":2,
+		"roleKey":"common",
+		"roleName":"勿动",
+		"roleSort":"2",
+		"status":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+22:28:05.481 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/list
+22:28:11.497 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+22:28:11.521 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+22:28:11.536 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+22:28:11.658 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/19/b9e7c4ee52ce7fef7c26439db1467e9a.png
+22:28:11.658 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/19/feb3b2017673a9e2fc42740909d22dae.png
+22:28:11.884 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:28:11.884 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:28:11.886 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:28:11.886 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/member/hunMember/list
+22:28:11.907 [threadPoolTaskExecutor-6] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除会员管理, businessType=10, method=com.qh.venus.achilles.pts.member.controller.HunMemberController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/member/hunMember/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+22:28:15.610 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list/enable
+22:28:15.610 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/all
+22:28:15.610 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/list
+22:28:17.090 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list
+22:28:17.090 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+22:28:17.090 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/list
+22:28:19.201 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/role/2
+22:28:25.907 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:28:25.907 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:28:25.907 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:28:25.907 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:28:25.908 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:28:25.910 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:28:25.931 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+22:28:25.931 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:28:25.958 [threadPoolTaskExecutor-7] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+22:28:28.593 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:28:28.593 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.387 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.389 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.389 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.390 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.393 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.394 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.415 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.421 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.423 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.429 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/get/4
+22:30:43.429 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.432 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.436 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.439 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:30:43.471 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/20/1c676248690209bb1c7b25b931dfc729.jpeg
+22:39:28.034 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysFile/upload
+22:39:34.490 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+22:39:34.491 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:39:34.491 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:39:34.524 [threadPoolTaskExecutor-8] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+22:42:02.347 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/save
+22:42:02.377 [threadPoolTaskExecutor-9] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=1, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"createBy":"admin",
+		"createTime":1607438522358,
+		"id":3,
+		"name":"李姨",
+		"params":{},
+		"phone":"",
+		"relation":"1",
+		"remark":"奶奶",
+		"status":"0",
+		"wechat":"已有"
+	}
+], status=0, errorMsg=null, operTime=null)
+22:42:02.432 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+22:42:02.450 [threadPoolTaskExecutor-10] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+22:42:29.362 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+22:42:29.408 [threadPoolTaskExecutor-11] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"agent":"3",
+		"birthday":820425600000,
+		"car":"2",
+		"createTime":1607438549371,
+		"education":"5",
+		"graduationCollage":"昆明某大学，电子专业",
+		"height":"170",
+		"homeAddr":"槐花（小康哥家北边那条街）",
+		"house":"2",
+		"id":5,
+		"job":"银行大堂经理",
+		"jobAddr":"西安某银行上班4k",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"李姨孙女",
+		"nation":"汉",
+		"nativePlace":"陕西西安",
+		"params":{},
+		"phone":"",
+		"physicalCondition":"健康",
+		"pic":"",
+		"remark":"",
+		"salary":"3",
+		"sex":"2",
+		"status":"1",
+		"totalMatch":0,
+		"wechat":"",
+		"weight":"120"
+	}
+], status=0, errorMsg=null, operTime=null)
+22:42:29.484 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+22:42:29.528 [threadPoolTaskExecutor-12] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+22:42:44.457 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysFile/remove
+22:42:49.948 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/get/5
+22:44:14.626 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/get/4
+22:44:14.657 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/20/1c676248690209bb1c7b25b931dfc729.jpeg
+22:50:17.154 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/save
+22:50:17.177 [threadPoolTaskExecutor-13] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=1, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"createBy":"admin",
+		"createTime":1607439017163,
+		"id":4,
+		"name":"张国涛爸",
+		"params":{},
+		"phone":"15229236659",
+		"relation":"1",
+		"status":"0",
+		"wechat":"已加"
+	}
+], status=0, errorMsg=null, operTime=null)
+22:50:17.231 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+22:50:17.249 [threadPoolTaskExecutor-14] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+22:51:23.195 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+22:51:23.213 [threadPoolTaskExecutor-15] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"agent":"4",
+		"birthday":252432000000,
+		"car":"2",
+		"createTime":1607439083200,
+		"education":"5",
+		"graduationCollage":"南昌大学",
+		"height":"165",
+		"homeAddr":"槐花",
+		"house":"1",
+		"id":6,
+		"job":"铝合金加工",
+		"jobAddr":"西安三桥",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"张国涛",
+		"nation":"汉",
+		"nativePlace":"周至",
+		"params":{},
+		"physicalCondition":"健康",
+		"pic":"",
+		"remark":"兄弟两个，老大离异，老二家里楼房，县城有房",
+		"salary":"3",
+		"sex":"1",
+		"status":"1",
+		"totalMatch":0,
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+22:51:23.309 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+22:51:23.343 [threadPoolTaskExecutor-16] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+22:51:37.053 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID
+22:51:42.911 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:51:42.914 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:51:42.914 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+22:51:42.936 [threadPoolTaskExecutor-17] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+22:52:21.406 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID
+22:56:18.902 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+22:56:18.923 [threadPoolTaskExecutor-18] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"birthday":915033600000,
+		"car":"2",
+		"createTime":1607439378909,
+		"education":"2",
+		"height":"175",
+		"homeAddr":"下三屯",
+		"house":"2",
+		"id":7,
+		"job":"陕西包地",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"杜严超",
+		"nation":"汉",
+		"nativePlace":"槐花",
+		"params":{},
+		"phone":"15991737705",
+		"physicalCondition":"健康",
+		"pic":"",
+		"remark":"",
+		"salary":"4",
+		"sex":"1",
+		"status":"1",
+		"totalMatch":0,
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+22:56:19.012 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+22:56:19.043 [threadPoolTaskExecutor-19] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+22:56:28.862 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID
+22:56:35.996 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/update
+22:56:36.012 [threadPoolTaskExecutor-20] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=2, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.editSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/update, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"birthday":915033600000,
+		"car":"2",
+		"education":"2",
+		"height":"175",
+		"homeAddr":"下三屯",
+		"house":"2",
+		"id":7,
+		"job":"陕西包地",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"杜严超",
+		"nation":"汉",
+		"nativePlace":"槐花",
+		"params":{},
+		"phone":"15991737705",
+		"physicalCondition":"健康",
+		"salary":"4",
+		"sex":"1",
+		"status":"1",
+		"totalMatch":0,
+		"updateTime":1607439396001,
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+22:56:36.123 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+22:56:36.153 [threadPoolTaskExecutor-21] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+22:56:47.930 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/update
+22:56:47.945 [threadPoolTaskExecutor-22] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=2, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.editSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/update, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"birthday":915120000000,
+		"car":"2",
+		"education":"2",
+		"height":"175",
+		"homeAddr":"下三屯",
+		"house":"2",
+		"id":7,
+		"job":"陕西包地",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"杜严超",
+		"nation":"汉",
+		"nativePlace":"槐花",
+		"params":{},
+		"phone":"15991737705",
+		"physicalCondition":"健康",
+		"salary":"4",
+		"sex":"1",
+		"status":"1",
+		"totalMatch":0,
+		"updateTime":1607439407935,
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+22:56:48.048 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+22:56:48.077 [threadPoolTaskExecutor-23] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+22:57:01.829 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID
+23:00:37.095 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+23:00:37.114 [threadPoolTaskExecutor-24] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"birthday":694108800000,
+		"car":"2",
+		"createTime":1607439637100,
+		"education":"2",
+		"height":"0",
+		"homeAddr":"下三屯路口加油站",
+		"house":"2",
+		"id":8,
+		"job":"未知",
+		"maritalStatus":"2",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"杜家女（无名氏）",
+		"nation":"汉",
+		"nativePlace":"下三屯",
+		"params":{},
+		"physicalCondition":"健康",
+		"pic":"",
+		"remark":"带男孩",
+		"sex":"2",
+		"status":"1",
+		"totalMatch":0,
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:00:37.213 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:00:37.245 [threadPoolTaskExecutor-25] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:02:56.287 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysFile/upload
+23:03:57.160 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/save
+23:03:57.178 [threadPoolTaskExecutor-26] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=1, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"createBy":"admin",
+		"createTime":1607439837166,
+		"id":5,
+		"name":"朱女士爸爸",
+		"params":{},
+		"phone":"15114971388",
+		"relation":"1",
+		"status":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:03:57.241 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+23:03:57.256 [threadPoolTaskExecutor-27] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+23:04:36.142 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+23:04:36.166 [threadPoolTaskExecutor-28] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"agent":"5",
+		"car":"2",
+		"createTime":1607439876145,
+		"education":"5",
+		"height":"160",
+		"homeAddr":"眉县凤池村",
+		"house":"2",
+		"id":9,
+		"job":"超市上班",
+		"jobAddr":"西安超市上班",
+		"maritalStatus":"2",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"朱女士",
+		"nation":"汉",
+		"nativePlace":"清华",
+		"params":{},
+		"physicalCondition":"健康",
+		"pic":"f9613cda0438475ea18f9bbb493db63e",
+		"remark":"带女娃",
+		"sex":"2",
+		"status":"1",
+		"totalMatch":0,
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:04:36.268 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:04:36.303 [threadPoolTaskExecutor-29] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:04:42.828 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+23:04:42.843 [threadPoolTaskExecutor-30] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+23:04:44.571 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/get/4
+23:04:47.055 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:04:47.088 [threadPoolTaskExecutor-31] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:04:50.217 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID
+23:05:47.739 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/get/8
+23:08:33.389 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysFile/upload
+23:09:34.316 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/save
+23:09:34.333 [threadPoolTaskExecutor-32] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=1, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"createBy":"admin",
+		"createTime":1607440174321,
+		"id":6,
+		"name":"刘谦爸",
+		"params":{},
+		"phone":"",
+		"relation":"1",
+		"status":"0",
+		"wechat":"已加"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:09:34.391 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+23:09:34.407 [threadPoolTaskExecutor-33] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+23:09:46.143 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+23:09:46.157 [threadPoolTaskExecutor-34] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"agent":"6",
+		"birthday":883584000000,
+		"car":"2",
+		"carDesc":"随时可买",
+		"createTime":1607440186147,
+		"education":"3",
+		"height":"170",
+		"homeAddr":"联兴",
+		"house":"1",
+		"houseDesc":"杨凌",
+		"id":10,
+		"job":"药厂上班",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"刘谦",
+		"nation":"汉",
+		"nativePlace":"联兴",
+		"params":{},
+		"physicalCondition":"健康",
+		"pic":"c82072c7e758420987c22dc2b0c109f1",
+		"remark":"",
+		"salary":"3",
+		"sex":"1",
+		"status":"1",
+		"totalMatch":0,
+		"wechat":"",
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:09:46.279 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:09:46.314 [threadPoolTaskExecutor-35] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:09:51.785 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/get/10
+23:09:51.807 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/12/08/9d7b4cabab106b0d926dd76220662ef0.jpeg
+23:10:07.302 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID
+23:14:10.393 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/save
+23:14:10.412 [threadPoolTaskExecutor-36] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=1, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"createBy":"admin",
+		"createTime":1607440450399,
+		"id":7,
+		"name":"张雄勃二姐",
+		"params":{},
+		"phone":"",
+		"relation":"1",
+		"status":"0",
+		"wechat":"已加"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:14:10.468 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+23:14:10.482 [threadPoolTaskExecutor-37] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+23:16:06.822 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+23:16:06.841 [threadPoolTaskExecutor-38] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"agent":"7",
+		"birthday":788889600000,
+		"car":"2",
+		"createTime":1607440566827,
+		"education":"5",
+		"graduationCollage":"专升本当中",
+		"height":"173",
+		"homeAddr":"槐花",
+		"homeDesc":"家里有一层半，两个姐姐均已结婚",
+		"house":"1",
+		"houseDesc":"杨凌、周至可以买房",
+		"id":11,
+		"job":"销售",
+		"jobAddr":"西安",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"张雄勃",
+		"nation":"汉",
+		"nativePlace":"槐花",
+		"params":{},
+		"physicalCondition":"健康",
+		"pic":"",
+		"remark":"人品绝对靠谱，性格稳重",
+		"salary":"4",
+		"sex":"1",
+		"status":"1",
+		"totalMatch":0,
+		"weight":"108"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:16:06.948 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:16:06.987 [threadPoolTaskExecutor-39] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:20:01.389 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+23:20:01.409 [threadPoolTaskExecutor-40] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"birthday":567964800000,
+		"car":"2",
+		"createTime":1607440801394,
+		"education":"5",
+		"graduationCollage":"陕西理工学院（2012毕业）",
+		"height":"0",
+		"homeAddr":"县城南边大寨子",
+		"homeDesc":"19年盖的老房",
+		"house":"2",
+		"houseDesc":"",
+		"id":12,
+		"job":"补课机构代课",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"金阿雷",
+		"nation":"汉",
+		"nativePlace":"大寨子",
+		"params":{},
+		"phone":"",
+		"physicalCondition":"健康",
+		"pic":"",
+		"remark":"",
+		"salary":"4",
+		"sex":"1",
+		"status":"1",
+		"totalMatch":0,
+		"wechat":"已加",
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:20:01.536 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:20:01.578 [threadPoolTaskExecutor-41] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:20:28.792 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:20:28.884 [threadPoolTaskExecutor-42] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"car":"1",
+		"house":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=1, errorMsg=
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '1') tmp_count' at line 6
+### The error may exist in file [/Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager/target/classes/mybatis/pts/custom/HunCustomMapper.xml]
+### The error may involve com.qh.venus.achilles.pts.custom.mapper.HunCustomMapper.selectHunCustomList-Inline
+### The error occurred while setting parameters
+### SQL: select count(0) from (select file_path, agent_id, agent_parse1, agent_parse2, agent_parse3, agent_parse4, agent_parse5, agent_name, agent_phone, agent_relation, agent_wechat, agent_qq, agent_email, id, del_flag, status, create_by, create_time, update_by, update_time, remark, parse1, parse2, parse3, parse4, name, sex, nation, birthday, native_place, blood, id_card, height, weight, physical_condition, hobby, graduation_collage, education, job, job_addr, pic, home_addr, home_desc, phone, wechat, qq, email, marital_status, salary, house, house_desc, car, car_desc, agent from hun_custom hc         left join (select id as agent_id, parse1 as agent_parse1, parse2 as agent_parse2, parse3 as agent_parse3, parse4 as agent_parse4, parse5 as agent_parse5, name as agent_name, phone as agent_phone, relation as agent_relation, wechat as agent_wechat, qq as agent_qq, email as agent_email from hun_agent where status = 0) ha on hc.agent = ha.agent_id         left join (select bus_id, file_path from t_sys_file) sf on hc.pic = sf.bus_id                WHERE  house = ?              and car like = ?) tmp_count
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '1') tmp_count' at line 6
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corres, operTime=null)
+23:21:30.706 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+23:21:30.750 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+23:21:30.762 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+23:21:30.894 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/19/feb3b2017673a9e2fc42740909d22dae.png
+23:21:30.894 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/19/b9e7c4ee52ce7fef7c26439db1467e9a.png
+23:21:31.124 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:21:31.124 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:21:31.124 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:21:31.124 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:21:31.128 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:21:31.128 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:21:31.140 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:21:31.142 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:21:31.187 [threadPoolTaskExecutor-43] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:21:34.637 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:21:34.637 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:29:34.829 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+23:29:34.847 [threadPoolTaskExecutor-44] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"birthday":473356800000,
+		"car":"2",
+		"createTime":1607441374834,
+		"education":"2",
+		"height":"180",
+		"homeAddr":"槐花",
+		"house":"1",
+		"houseDesc":"咸阳2室1厅",
+		"id":13,
+		"job":"电焊工",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"张卫军",
+		"nation":"汉",
+		"nativePlace":"槐花",
+		"params":{},
+		"phone":"17809225579",
+		"physicalCondition":"健康",
+		"pic":"",
+		"remark":"离婚没有孩子就好",
+		"salary":"4",
+		"sex":"1",
+		"status":"1",
+		"totalMatch":0,
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:29:34.958 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:29:35.008 [threadPoolTaskExecutor-45] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:32:54.524 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+23:32:54.541 [threadPoolTaskExecutor-46] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"birthday":662659200000,
+		"car":"1",
+		"carDesc":"可买",
+		"createTime":1607441574529,
+		"education":"2",
+		"height":"171",
+		"homeAddr":"槐花",
+		"homeDesc":"兄弟2个，这个是老大，都未婚，极矮三间二层",
+		"house":"2",
+		"id":14,
+		"job":"批发水果",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"张强强",
+		"nation":"汉",
+		"nativePlace":"槐花",
+		"params":{},
+		"physicalCondition":"健康",
+		"pic":"",
+		"remark":"6k",
+		"salary":"3",
+		"sex":"1",
+		"status":"1",
+		"totalMatch":0,
+		"weight":"125"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:32:54.667 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:32:54.709 [threadPoolTaskExecutor-47] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:33:00.223 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:33:00.241 [threadPoolTaskExecutor-48] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:33:10.136 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:33:10.136 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:33:10.136 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:33:10.136 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:33:10.138 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:33:10.138 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:33:10.152 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:33:10.158 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:33:10.160 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:33:10.163 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/get/14
+23:33:10.170 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:33:10.171 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:33:10.173 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:33:10.178 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:36:40.156 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysFile/upload
+23:37:41.878 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+23:37:41.896 [threadPoolTaskExecutor-49] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"birthday":694195200000,
+		"car":"2",
+		"createTime":1607441861883,
+		"education":"5",
+		"graduationCollage":"龙岩学院",
+		"height":"0",
+		"homeAddr":"下三屯",
+		"house":"2",
+		"id":15,
+		"job":"软件开发",
+		"jobAddr":"西安上班",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"朱鹏浩",
+		"nation":"汉",
+		"nativePlace":"下三屯",
+		"params":{},
+		"physicalCondition":"健康",
+		"pic":"",
+		"remark":"",
+		"salary":"6",
+		"sex":"1",
+		"status":"1",
+		"totalMatch":0,
+		"wechat":"",
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:37:41.988 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:37:42.029 [threadPoolTaskExecutor-50] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:37:45.507 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:37:45.526 [threadPoolTaskExecutor-1] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:37:51.602 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID
+23:37:54.780 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+23:37:54.780 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:37:54.780 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:37:54.801 [threadPoolTaskExecutor-2] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+23:38:16.075 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/save
+23:38:16.090 [threadPoolTaskExecutor-3] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=1, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"createBy":"admin",
+		"createTime":1607441896081,
+		"id":8,
+		"name":"朱鹏浩妈",
+		"params":{},
+		"relation":"1",
+		"status":"0",
+		"wechat":"已加"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:38:16.147 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+23:38:16.163 [threadPoolTaskExecutor-4] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+23:38:23.170 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/update
+23:38:23.182 [threadPoolTaskExecutor-5] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=2, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.editSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/update, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"agent":"8",
+		"birthday":694195200000,
+		"car":"2",
+		"education":"5",
+		"graduationCollage":"龙岩学院",
+		"height":"0",
+		"homeAddr":"下三屯",
+		"house":"2",
+		"id":15,
+		"job":"软件开发",
+		"jobAddr":"西安上班",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"朱鹏浩",
+		"nation":"汉",
+		"nativePlace":"下三屯",
+		"params":{},
+		"physicalCondition":"健康",
+		"salary":"6",
+		"sex":"1",
+		"status":"1",
+		"totalMatch":0,
+		"updateTime":1607441903174,
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:38:23.285 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:38:23.325 [threadPoolTaskExecutor-6] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:38:26.543 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:38:26.566 [threadPoolTaskExecutor-7] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:38:29.299 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/get/15
+23:38:38.796 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/get/4
+23:38:38.812 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/20/1c676248690209bb1c7b25b931dfc729.jpeg
+23:38:39.991 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:38:39.995 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:38:39.995 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+23:38:40.010 [threadPoolTaskExecutor-8] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+23:39:46.624 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:39:46.669 [threadPoolTaskExecutor-9] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:39:51.135 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID
+23:42:59.155 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysFile/upload
+23:43:03.350 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+23:43:03.365 [threadPoolTaskExecutor-10] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"birthday":662659200000,
+		"car":"1",
+		"createTime":1607442183355,
+		"education":"2",
+		"height":"175",
+		"homeAddr":"槐花",
+		"house":"2",
+		"id":16,
+		"job":"无工作",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"张涛",
+		"nation":"汉",
+		"nativePlace":"槐花",
+		"params":{},
+		"phone":"13565573631",
+		"physicalCondition":"健康",
+		"pic":"9774483664f64979af13e655f4e966a7",
+		"remark":"以前在新疆当过协警",
+		"sex":"1",
+		"status":"2",
+		"totalMatch":0,
+		"wechat":"已加",
+		"weight":"130"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:43:03.478 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:43:03.523 [threadPoolTaskExecutor-11] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:43:06.026 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:43:06.049 [threadPoolTaskExecutor-12] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:43:08.685 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:43:08.729 [threadPoolTaskExecutor-13] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:44:28.565 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:44:28.592 [threadPoolTaskExecutor-14] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:44:30.841 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:44:30.884 [threadPoolTaskExecutor-15] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:45:01.292 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID
+23:50:02.905 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysFile/upload
+23:50:04.800 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+23:50:04.814 [threadPoolTaskExecutor-16] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"birthday":788889600000,
+		"car":"2",
+		"createTime":1607442604804,
+		"education":"5",
+		"graduationCollage":"吉林大学",
+		"height":"160",
+		"hobby":"性格活波开朗，工作细心，没谈过对象",
+		"homeAddr":"未知",
+		"house":"2",
+		"id":17,
+		"job":"软件开发",
+		"jobAddr":"北京58，现在字节跳动",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"沈茹梦",
+		"nation":"汉",
+		"nativePlace":"未知",
+		"params":{},
+		"physicalCondition":"健康",
+		"pic":"a5e6ceca7b4c411795fccaf6ae821e85",
+		"remark":"985院校，互联网大企业",
+		"salary":"6",
+		"sex":"2",
+		"status":"1",
+		"totalMatch":0,
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:50:04.950 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:50:04.993 [threadPoolTaskExecutor-17] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:50:14.841 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID
+23:52:43.341 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysFile/upload
+23:53:14.652 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/save
+23:53:14.666 [threadPoolTaskExecutor-18] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=1, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"createBy":"admin",
+		"createTime":1607442794657,
+		"id":9,
+		"name":"段晶爸",
+		"params":{},
+		"phone":"13359284818",
+		"relation":"1",
+		"status":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:53:14.731 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+23:53:14.746 [threadPoolTaskExecutor-19] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+23:54:25.957 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+23:54:25.976 [threadPoolTaskExecutor-20] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"agent":"9",
+		"birthday":788889600000,
+		"car":"2",
+		"createTime":1607442865961,
+		"education":"5",
+		"graduationCollage":"西安工程大学",
+		"height":"155",
+		"homeAddr":"欲盛",
+		"house":"2",
+		"id":18,
+		"job":"硬件",
+		"jobAddr":"上海",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"段晶",
+		"nation":"汉",
+		"nativePlace":"欲盛",
+		"params":{},
+		"phone":"18710353203",
+		"physicalCondition":"健康",
+		"pic":"010b238cfbb5474c8ea2d93642dce604",
+		"remark":"",
+		"salary":"6",
+		"sex":"2",
+		"status":"1",
+		"totalMatch":0,
+		"wechat":"同手机号",
+		"weight":"95"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:54:26.100 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:54:26.143 [threadPoolTaskExecutor-21] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:54:34.365 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:54:34.392 [threadPoolTaskExecutor-22] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:54:38.770 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:54:38.810 [threadPoolTaskExecutor-23] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:54:41.728 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:54:41.767 [threadPoolTaskExecutor-24] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:54:42.800 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:54:42.840 [threadPoolTaskExecutor-25] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:54:58.323 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID
+23:57:36.649 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysFile/upload
+23:58:38.383 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/save
+23:58:38.402 [threadPoolTaskExecutor-26] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=1, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"createBy":"admin",
+		"createTime":1607443118388,
+		"id":10,
+		"name":"宋元乔妈",
+		"params":{},
+		"phone":"13572429025",
+		"relation":"1",
+		"status":"0",
+		"wechat":"同手机号"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:58:38.467 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/relation/hunAgent/list
+23:58:38.482 [threadPoolTaskExecutor-27] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除代理人, businessType=10, method=com.qh.venus.achilles.pts.relation.controller.HunAgentController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/relation/hunAgent/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)
+23:59:05.132 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/save
+23:59:05.145 [threadPoolTaskExecutor-28] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=1, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.addSave(), requestMethod=POST, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/save, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"agent":"10",
+		"birthday":728496000000,
+		"car":"2",
+		"createTime":1607443145136,
+		"education":"4",
+		"graduationCollage":"大专",
+		"height":"170",
+		"homeAddr":"景联",
+		"homeDesc":"6间2层",
+		"house":"2",
+		"houseDesc":"",
+		"id":19,
+		"job":"瑜伽老师",
+		"jobAddr":"西安",
+		"maritalStatus":"1",
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"name":"宋元乔",
+		"nation":"汉",
+		"nativePlace":"景联",
+		"params":{},
+		"phone":"13299011550",
+		"physicalCondition":"健康",
+		"pic":"5dd157ed154c46d79feaa1c401c393e3",
+		"remark":"",
+		"salary":"5",
+		"sex":"2",
+		"status":"1",
+		"totalMatch":0,
+		"wechat":"同手机号",
+		"weight":"0"
+	}
+], status=0, errorMsg=null, operTime=null)
+23:59:05.267 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/custom/custom/list
+23:59:05.309 [threadPoolTaskExecutor-29] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除客户管理, businessType=10, method=com.qh.venus.achilles.pts.custom.controller.HunCustomController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/custom/custom/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"matchFail":0,
+		"matchSuccess":0,
+		"matching":0,
+		"params":{},
+		"totalMatch":0
+	}
+], status=0, errorMsg=null, operTime=null)
+23:59:12.702 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/sys/TSysSerialNumber/UUID

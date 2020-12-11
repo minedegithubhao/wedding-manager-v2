@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qh.venus.achilles.pts.sys.mapper.TSysSerialNumberMapper">
+    
+    <resultMap type="TSysSerialNumber" id="TSysSerialNumberResult">
+        <result property="id"    column="id"    />
+        <result property="modelName"    column="model_name"    />
+        <result property="modelCode"    column="model_code"    />
+        <result property="configTemplet"    column="config_templet"    />
+        <result property="maxSerial"    column="max_serial"    />
+        <result property="preMaxNum"    column="pre_max_num"    />
+        <result property="autoIncrementFlag"    column="auto_increment_flag"    />
+        <result property="status"    column="status"    />
+        <result property="delFlag"    column="del_flag"    />
+        <result property="createBy"    column="create_by"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateBy"    column="update_by"    />
+        <result property="updateTime"    column="update_time"    />
+        <result property="remark"    column="remark"    />
+    </resultMap>
+
+    <sql id="selectTSysSerialNumberVo">
+        select id, model_name, model_code, config_templet, max_serial, pre_max_num, auto_increment_flag, status, del_flag, create_by, create_time, update_by, update_time, remark from t_sys_serial_number
+    </sql>
+
+    <select id="selectTSysSerialNumberList" parameterType="TSysSerialNumber" resultMap="TSysSerialNumberResult">
+        <include refid="selectTSysSerialNumberVo"/>
+        <where>  
+             <if test="id != null "> and id = #{id}</if>
+             <if test="modelName != null  and modelName != '' "> and model_name like concat('%', #{modelName}, '%') </if>
+             <if test="modelCode != null  and modelCode != '' "> and model_code like concat('%', #{modelCode}, '%')</if>
+             <if test="configTemplet != null  and configTemplet != '' "> and config_templet = #{configTemplet}</if>
+             <if test="maxSerial != null  and maxSerial != '' "> and max_serial = #{maxSerial}</if>
+             <if test="preMaxNum != null  and preMaxNum != '' "> and pre_max_num = #{preMaxNum}</if>
+             <if test="autoIncrementFlag != null  and autoIncrementFlag != '' "> and auto_increment_flag = #{autoIncrementFlag}</if>
+             <if test="status != null  and status != '' "> and status = #{status}</if>
+             <if test="createTime != null "> and create_time = #{createTime}</if>
+             <if test="createBy != null  and createBy != '' "> and create_by = #{createBy}</if>
+             <if test="updateBy != null  and updateBy != '' "> and update_by = #{updateBy}</if>
+             <if test="updateTime != null "> and update_time = #{updateTime}</if>
+             <if test="remark != null  and remark != '' "> and remark = #{remark}</if>
+        </where>
+    </select>
+    
+    <select id="selectTSysSerialNumberById" parameterType="String" resultMap="TSysSerialNumberResult">
+        <include refid="selectTSysSerialNumberVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertTSysSerialNumber" parameterType="TSysSerialNumber">
+        <selectKey keyProperty="id" resultType="string" order="BEFORE">
+            select replace(uuid(), '-', '') as id from dual
+        </selectKey>
+        insert into t_sys_serial_number
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null  and id != ''">id,</if>
+            <if test="modelName != null  and modelName != ''">model_name,</if>
+            <if test="modelCode != null  and modelCode != ''">model_code,</if>
+            <if test="configTemplet != null  and configTemplet != ''">config_templet,</if>
+            <if test="maxSerial != null  and maxSerial != ''">max_serial,</if>
+            <if test="preMaxNum != null  and preMaxNum != ''">pre_max_num,</if>
+            <if test="autoIncrementFlag != null  and autoIncrementFlag != ''">auto_increment_flag,</if>
+            <if test="status != null ">status,</if>
+            <if test="delFlag != null ">del_flag,</if>
+            <if test="createBy != null  and createBy != ''">create_by,</if>
+            <if test="createTime != null ">create_time,</if>
+            <if test="updateBy != null  and updateBy != ''">update_by,</if>
+            <if test="updateTime != null ">update_time,</if>
+            <if test="remark != null  and remark != ''">remark,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null  and id != ''">#{id},</if>
+            <if test="modelName != null  and modelName != ''">#{modelName},</if>
+            <if test="modelCode != null  and modelCode != ''">#{modelCode},</if>
+            <if test="configTemplet != null  and configTemplet != ''">#{configTemplet},</if>
+            <if test="maxSerial != null  and maxSerial != ''">#{maxSerial},</if>
+            <if test="preMaxNum != null  and preMaxNum != ''">#{preMaxNum},</if>
+            <if test="autoIncrementFlag != null  and autoIncrementFlag != ''">#{autoIncrementFlag},</if>
+            <if test="status != null ">#{status},</if>
+            <if test="delFlag != null ">#{delFlag},</if>
+            <if test="createBy != null  and createBy != ''">#{createBy},</if>
+            <if test="createTime != null ">#{createTime},</if>
+            <if test="updateBy != null  and updateBy != ''">#{updateBy},</if>
+            <if test="updateTime != null ">#{updateTime},</if>
+            <if test="remark != null  and remark != ''">#{remark},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTSysSerialNumber" parameterType="TSysSerialNumber">
+        update t_sys_serial_number
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="modelName != null  and modelName != ''">model_name = #{modelName},</if>
+            <if test="modelCode != null  and modelCode != ''">model_code = #{modelCode},</if>
+            <if test="configTemplet != null  and configTemplet != ''">config_templet = #{configTemplet},</if>
+            <if test="maxSerial != null  and maxSerial != ''">max_serial = #{maxSerial},</if>
+            <if test="preMaxNum != null  and preMaxNum != ''">pre_max_num = #{preMaxNum},</if>
+            <if test="autoIncrementFlag != null  and autoIncrementFlag != ''">auto_increment_flag = #{autoIncrementFlag},</if>
+            <if test="status != null ">status = #{status},</if>
+            <if test="delFlag != null ">del_flag = #{delFlag},</if>
+            <if test="createBy != null  and createBy != ''">create_by = #{createBy},</if>
+            <if test="createTime != null ">create_time = #{createTime},</if>
+            <if test="updateBy != null  and updateBy != ''">update_by = #{updateBy},</if>
+            <if test="updateTime != null ">update_time = #{updateTime},</if>
+            <if test="remark != null  and remark != ''">remark = #{remark},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteTSysSerialNumberById" parameterType="String">
+        delete from t_sys_serial_number where id = #{id}
+    </delete>
+
+    <delete id="deleteTSysSerialNumberByIds" parameterType="String">
+        delete from t_sys_serial_number where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    
+</mapper>

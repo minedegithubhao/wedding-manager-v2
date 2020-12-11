@@ -1,0 +1,50 @@
+<config>
+    <input>
+        <jar in="achilles-1.0.0-SNAPSHOT.jar" out="achilles-1.0.0-SNAPSHOT-obfuscated.jar"/>
+    </input>
+    <classpath basedir="lib">
+        <!-- Adding library.jar to the classpath -->
+        <jar name="achilles-flow-core-1.0.0-SNAPSHOT.jar"/>
+        <jar name="commons-lang3-3.8.1.jar"/>
+        <jar name="commons-pool2-2.6.0.jar"/>
+        <jar name="mybatis-3.4.6.jar"/>
+        <jar name="spring-beans-5.1.2.RELEASE.jar"/>
+        <jar name="spring-core-5.1.2.RELEASE.jar"/>
+        <jar name="spring-webmvc-5.1.2.RELEASE.jar"/>
+        <jar name="spring-websocket-5.1.2.RELEASE.jar"/>
+        <jar name="tomcat-embed-core-9.0.12.jar"/>
+    </classpath>
+
+    <!-- ignore-classes中配置不被混淆的类 -->
+    <ignore-classes>
+        <!-- 配置了启动相关类不被混淆，保证springboot可以正常启动 -->
+        <class template="class *springframework*"/>
+        <class template="class *shardingjdbc*"/>
+        <class template="class *jni*"/>
+        <class template="class *alibaba*"/>
+        <class template="class *persistence*"/>
+        <class template="class *apache*"/>
+        <class template="class *model*"/>
+        <class template="class *enums*"/>
+        <class template="class *repository*"/>
+
+        <class template="class com.qh.venus.achilles.RunApplication"/>
+        <class template="class com.qh.venus.achilles.RunServletInitializer"/>
+        <class template="class com.qh.venus.achilles.common.*"/>
+        <class template="class com.qh.venus.achilles.framework.*"/>
+        <class template="class com.qh.venus.achilles.sms.*"/>
+        <class template="class com.qh.venus.achilles.pts.evidence.*"/>
+        <class template="class com.qh.venus.achilles.pts.api.*"/>
+        <class template="class *mapper*"/>
+        <class template="class *controller*"/>
+    </ignore-classes>
+    <keep-names>
+        <!-- 防止部分类、方法、变量找不到名称而报错 -->
+        <!-- 所有方法名称不变，parameters="keep"表示方法参数名也不变 -->
+        <method template="*(**)" parameters="keep"/>
+        <!-- com.qh.venus.achilles中的类以及其子包中的类的名称不变 -->
+        <class template="class com.qh.venus.achilles.*"/>
+    </keep-names>
+
+    <property name="log-file" value="log.xml"/>
+</config>

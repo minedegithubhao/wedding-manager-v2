@@ -1,0 +1,24 @@
+21:01:53.094 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+21:01:59.791 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+21:01:59.817 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+21:01:59.868 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+21:02:06.604 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+21:02:06.620 [schedule-pool-2] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+21:02:06.621 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+21:02:12.681 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+21:02:12.695 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+21:02:12.695 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+21:02:17.359 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+21:02:17.498 [schedule-pool-3] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[admin][Success][登录成功]
+21:02:17.515 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+21:02:17.567 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+21:02:17.588 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+21:02:17.839 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/12/ecc3086d41d67feeafb42fd8b6a8be5c.png
+21:02:17.841 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/11/12/4b2967a3cdc6946d052a927366defbb3.png
+21:02:17.895 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/dating/hunDating/list
+21:02:17.895 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+21:02:17.937 [threadPoolTaskExecutor-11] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=删除相亲, businessType=10, method=com.qh.venus.achilles.pts.dating.controller.HunDatingController.list(), requestMethod=GET, operatorType=1, operName=admin, deptName=null, operUrl=/pts/dating/hunDating/list, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	{
+		"params":{}
+	}
+], status=0, errorMsg=null, operTime=null)

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qh.venus.achilles.sms.system.mapper.SysTopMenuSettingMapper">
+    
+    <resultMap type="SysTopMenuSetting" id="SysTopMenuSettingResult">
+        <result property="id"    column="id"    />
+        <result property="topMenuId"    column="top_menu_id"    />
+        <result property="menuId"    column="menu_id"    />
+    </resultMap>
+
+    <sql id="selectSysTopMenuSettingVo">
+        select id, top_menu_id, menu_id from sys_top_menu_setting
+    </sql>
+
+    <select id="selectSysTopMenuSettingList" parameterType="SysTopMenuSetting" resultMap="SysTopMenuSettingResult">
+        <include refid="selectSysTopMenuSettingVo"/>
+        <where>  
+        </where>
+    </select>
+    
+    <select id="selectSysTopMenuSettingById" parameterType="Long" resultMap="SysTopMenuSettingResult">
+        <include refid="selectSysTopMenuSettingVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertSysTopMenuSetting" parameterType="SysTopMenuSetting" useGeneratedKeys="true" keyProperty="id">
+        insert into sys_top_menu_setting
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="topMenuId != null ">top_menu_id,</if>
+            <if test="menuId != null ">menu_id,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="topMenuId != null ">#{topMenuId},</if>
+            <if test="menuId != null ">#{menuId},</if>
+         </trim>
+    </insert>
+
+    <update id="updateSysTopMenuSetting" parameterType="SysTopMenuSetting">
+        update sys_top_menu_setting
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="topMenuId != null ">top_menu_id = #{topMenuId},</if>
+            <if test="menuId != null ">menu_id = #{menuId},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteSysTopMenuSettingById" parameterType="Long">
+        delete from sys_top_menu_setting where id = #{id}
+    </delete>
+
+    <delete id="deleteTopMenuSettingsByTopMenuId" parameterType="Long">
+        delete from sys_top_menu_setting where top_menu_id = #{id}
+    </delete>
+
+    <delete id="deleteSysTopMenuSettingByIds" parameterType="String">
+        delete from sys_top_menu_setting where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <delete id="deleteTopMenuSettingsByMenuIds" parameterType="Long">
+        delete from sys_top_menu_setting where menu_id in
+        <foreach item="menuId" collection="list" open="(" separator="," close=")">
+            #{menuId}
+        </foreach>
+    </delete>
+
+    <delete id="deleteTopMenuSettingsByTopMenuIds" parameterType="String">
+        delete from sys_top_menu_setting where top_menu_id in
+        <foreach item="topMenuId" collection="array" open="(" separator="," close=")">
+            #{topMenuId}
+        </foreach>
+    </delete>
+
+    <insert id="batchTopMenuSettings">
+        insert into sys_top_menu_setting(top_menu_id, menu_id) values
+        <foreach item="item" index="index" collection="list" separator=",">
+            (#{item.topMenuId},#{item.menuId})
+        </foreach>
+    </insert>
+    
+</mapper>

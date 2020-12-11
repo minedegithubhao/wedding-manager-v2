@@ -1,0 +1,5 @@
+22:21:01.509 [Thread-61] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+22:21:11.848 [main] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+22:25:17.085 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+22:25:20.068 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:25:46.860 [schedule-pool-2] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[admin][Success][登录成功]

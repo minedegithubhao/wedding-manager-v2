@@ -1,0 +1,10 @@
+05:25:45.734 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+05:25:54.866 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+05:25:55.089 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,43] - 登录用户：wedding 不存在.
+05:25:55.214 [schedule-pool-2] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[wedding][Error][用户不存在/密码错误]
+05:25:55.242 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+05:28:07.148 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+05:28:10.415 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+05:28:13.563 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+05:28:13.726 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+05:28:13.726 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[admin][Error][用户不存在/密码错误]

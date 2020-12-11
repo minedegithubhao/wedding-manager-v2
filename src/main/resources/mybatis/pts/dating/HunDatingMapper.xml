@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qh.venus.achilles.pts.dating.mapper.HunDatingMapper">
+
+    <resultMap type="HunDating" id="HunDatingResult">
+        <result property="id" column="id"/>
+        <result property="delFlag" column="del_flag"/>
+        <result property="status" column="status"/>
+        <result property="createBy" column="create_by"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateBy" column="update_by"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="remark" column="remark"/>
+        <result property="parse1" column="parse1"/>
+        <result property="parse2" column="parse2"/>
+        <result property="parse3" column="parse3"/>
+        <result property="parse4" column="parse4"/>
+        <result property="parse5" column="parse5"/>
+        <result property="mid" column="mid"/>
+        <result property="wid" column="wid"/>
+        <result property="mmid" column="mmid"/>
+        <result property="title" column="title"/>
+        <result property="datingTime" column="dating_time"/>
+        <result property="result" column="result"/>
+    </resultMap>
+
+    <sql id="selectHunDatingVo">
+        SELECT temp2.*,hm.`name` mmname FROM
+            (SELECT temp.*,hc2.`name` wname FROM (SELECT hd.*, hc1.`name` mname FROM hun_dating hd LEFT JOIN hun_custom hc1 ON hd.mid = hc1.id) temp LEFT JOIN hun_custom hc2 ON temp.wid = hc2.id) temp2
+        LEFT JOIN hun_matchmaker hm ON temp2.mmid = hm.id
+    </sql>
+
+    <select id="selectHunDatingList" parameterType="HunDating" resultMap="HunDatingResult">
+        <include refid="selectHunDatingVo"/>
+        <where>
+            <if test="datingTime != null ">and dating_time like concat('%', #{datingTime}, '%')</if>
+        </where>
+    </select>
+
+    <select id="selectHunDatingById" parameterType="Long" resultMap="HunDatingResult">
+        <include refid="selectHunDatingVo"/>
+        where id = #{id}
+    </select>
+
+    <insert id="insertHunDating" parameterType="HunDating" useGeneratedKeys="true" keyProperty="id">
+        insert into hun_dating
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="delFlag != null  and delFlag != ''">del_flag,</if>
+            <if test="status != null  and status != ''">status,</if>
+            <if test="createBy != null  and createBy != ''">create_by,</if>
+            <if test="createTime != null ">create_time,</if>
+            <if test="updateBy != null  and updateBy != ''">update_by,</if>
+            <if test="updateTime != null ">update_time,</if>
+            <if test="remark != null  and remark != ''">remark,</if>
+            <if test="parse1 != null  and parse1 != ''">parse1,</if>
+            <if test="parse2 != null  and parse2 != ''">parse2,</if>
+            <if test="parse3 != null  and parse3 != ''">parse3,</if>
+            <if test="parse4 != null  and parse4 != ''">parse4,</if>
+            <if test="parse5 != null  and parse5 != ''">parse5,</if>
+            <if test="mid != null  and mid != ''">mid,</if>
+            <if test="wid != null  and wid != ''">wid,</if>
+            <if test="mmid != null  and mmid != ''">mmid,</if>
+            <if test="title != null  and title != ''">title,</if>
+            <if test="datingTime != null ">dating_time,</if>
+            <if test="result != null  and result != ''">result,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="delFlag != null  and delFlag != ''">#{delFlag},</if>
+            <if test="status != null  and status != ''">#{status},</if>
+            <if test="createBy != null  and createBy != ''">#{createBy},</if>
+            <if test="createTime != null ">#{createTime},</if>
+            <if test="updateBy != null  and updateBy != ''">#{updateBy},</if>
+            <if test="updateTime != null ">#{updateTime},</if>
+            <if test="remark != null  and remark != ''">#{remark},</if>
+            <if test="parse1 != null  and parse1 != ''">#{parse1},</if>
+            <if test="parse2 != null  and parse2 != ''">#{parse2},</if>
+            <if test="parse3 != null  and parse3 != ''">#{parse3},</if>
+            <if test="parse4 != null  and parse4 != ''">#{parse4},</if>
+            <if test="parse5 != null  and parse5 != ''">#{parse5},</if>
+            <if test="mid != null  and mid != ''">#{mid},</if>
+            <if test="wid != null  and wid != ''">#{wid},</if>
+            <if test="mmid != null  and mmid != ''">#{mmid},</if>
+            <if test="title != null  and title != ''">#{title},</if>
+            <if test="datingTime != null ">#{datingTime},</if>
+            <if test="result != null  and result != ''">#{result},</if>
+        </trim>
+    </insert>
+
+    <update id="updateHunDating" parameterType="HunDating">
+        update hun_dating
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="delFlag != null  and delFlag != ''">del_flag = #{delFlag},</if>
+            <if test="status != null  and status != ''">status = #{status},</if>
+            <if test="createBy != null  and createBy != ''">create_by = #{createBy},</if>
+            <if test="createTime != null ">create_time = #{createTime},</if>
+            <if test="updateBy != null  and updateBy != ''">update_by = #{updateBy},</if>
+            <if test="updateTime != null ">update_time = #{updateTime},</if>
+            <if test="remark != null  and remark != ''">remark = #{remark},</if>
+            <if test="parse1 != null  and parse1 != ''">parse1 = #{parse1},</if>
+            <if test="parse2 != null  and parse2 != ''">parse2 = #{parse2},</if>
+            <if test="parse3 != null  and parse3 != ''">parse3 = #{parse3},</if>
+            <if test="parse4 != null  and parse4 != ''">parse4 = #{parse4},</if>
+            <if test="parse5 != null  and parse5 != ''">parse5 = #{parse5},</if>
+            <if test="mid != null  and mid != ''">mid = #{mid},</if>
+            <if test="wid != null  and wid != ''">wid = #{wid},</if>
+            <if test="mmid != null  and mmid != ''">mmid = #{mmid},</if>
+            <if test="title != null  and title != ''">title = #{title},</if>
+            <if test="datingTime != null ">dating_time = #{datingTime},</if>
+            <if test="result != null  and result != ''">result = #{result},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteHunDatingById" parameterType="Long">
+        delete from hun_dating where id = #{id}
+    </delete>
+
+    <delete id="deleteHunDatingByIds" parameterType="String">
+        delete from hun_dating where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+</mapper>

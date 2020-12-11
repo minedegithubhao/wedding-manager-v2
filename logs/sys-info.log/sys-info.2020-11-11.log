@@ -1,0 +1,1008 @@
+22:26:44.988 [main] INFO  c.q.v.a.RunApplication - [logStarting,50] - Starting RunApplication on cxdpcdeMacBook-Pro.local with PID 11117 (/Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager/target/classes started by cxdpc in /Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager)
+22:26:45.000 [main] INFO  c.q.v.a.RunApplication - [logStartupProfileInfo,679] - The following profiles are active: dev
+22:26:45.066 [main] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:26:46.600 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+22:26:46.604 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+22:26:46.677 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+22:26:47.137 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$72323190] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:26:47.255 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$abc67362] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:26:47.494 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$44743b9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:26:47.501 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:26:47.505 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3af236d0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:26:47.509 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$6948de4e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:26:47.522 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:26:48.008 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+22:26:48.025 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:26:48.030 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:26:48.030 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+22:26:48.040 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/cxdpc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22:26:48.165 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:26:48.165 [main] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 3099 ms
+22:26:49.733 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'xssFilter' to urls: [/system/*, /monitor/*, /tool/*, /pts/sys/*]
+22:26:49.734 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+22:26:49.734 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+22:26:49.734 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+22:26:49.734 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+22:26:49.735 [main] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - [configure,248] - Mapping filter: 'springSecurityFilterChain' to: [/*]
+22:26:49.735 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'object' to urls: [/druid/js/common.js]
+22:26:49.735 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'repeatableFilter' to urls: [/*]
+22:26:49.735 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'webStatFilter' to urls: [/*]
+22:26:49.735 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'jwtAuthenticationTokenFilter' to: [/*]
+22:26:49.736 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+22:26:49.738 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet statViewServlet mapped to [/druid/*]
+22:26:51.313 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:26:51.362 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'threadPoolTaskExecutor'
+22:26:53.406 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:26:53.468 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+22:26:53.490 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:26:53.490 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+22:26:53.491 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+22:26:53.492 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+22:26:53.493 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+22:26:53.493 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+22:26:53.493 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@26d02dc6
+22:26:53.740 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - [<init>,43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1cb7f2fe, org.springframework.security.web.context.SecurityContextPersistenceFilter@7aad7df5, org.springframework.security.web.header.HeaderWriterFilter@870413c, org.springframework.security.web.authentication.logout.LogoutFilter@7236213e, com.qh.venus.achilles.framework.security.filter.JwtAuthenticationTokenFilter@6f6f65a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18419ab7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69af938b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cb64b9c, org.springframework.security.web.session.SessionManagementFilter@7a91027c, org.springframework.security.web.access.ExceptionTranslationFilter@6edb093f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54a5eff]
+22:26:53.929 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:26:53.985 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:26:54.032 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:26:54.132 [main] INFO  o.s.s.q.SchedulerFactoryBean - [startScheduler,726] - Starting Quartz Scheduler now
+22:26:54.133 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+22:26:54.142 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+22:26:54.161 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:26:54.177 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path ''
+22:26:54.181 [main] INFO  c.q.v.a.RunApplication - [logStarted,59] - Started RunApplication in 9.777 seconds (JVM running for 10.902)
+22:26:58.123 [Thread-23] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+22:26:58.131 [Thread-23] INFO  o.s.s.q.SchedulerFactoryBean - [destroy,844] - Shutting down Quartz Scheduler
+22:26:58.131 [Thread-23] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+22:26:58.131 [Thread-23] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+22:26:58.132 [Thread-23] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+22:26:58.134 [Thread-23] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,208] - Shutting down ExecutorService 'threadPoolTaskExecutor'
+22:26:58.136 [Thread-23] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+22:26:58.154 [Thread-23] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+22:31:12.926 [main] INFO  c.q.v.a.RunApplication - [logStarting,50] - Starting RunApplication on cxdpcdeMacBook-Pro.local with PID 11128 (/Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager/target/classes started by cxdpc in /Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager)
+22:31:12.929 [main] INFO  c.q.v.a.RunApplication - [logStartupProfileInfo,679] - The following profiles are active: dev
+22:31:12.969 [main] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:31:13.927 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+22:31:13.928 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+22:31:13.975 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+22:31:14.353 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$fba6ac3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:31:14.416 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$353aee0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:31:14.617 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$cde8b648] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:31:14.626 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:31:14.630 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@167a21b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:31:14.635 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$f2bd58fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:31:14.653 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+22:31:15.169 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+22:31:15.180 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:31:15.185 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:31:15.185 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+22:31:15.192 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/cxdpc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22:31:15.276 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:31:15.276 [main] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 2307 ms
+22:31:16.548 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'xssFilter' to urls: [/system/*, /monitor/*, /tool/*, /pts/sys/*]
+22:31:16.548 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+22:31:16.548 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+22:31:16.549 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+22:31:16.549 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+22:31:16.549 [main] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - [configure,248] - Mapping filter: 'springSecurityFilterChain' to: [/*]
+22:31:16.550 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'object' to urls: [/druid/js/common.js]
+22:31:16.550 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'repeatableFilter' to urls: [/*]
+22:31:16.550 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'webStatFilter' to urls: [/*]
+22:31:16.550 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'jwtAuthenticationTokenFilter' to: [/*]
+22:31:16.551 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+22:31:16.552 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet statViewServlet mapped to [/druid/*]
+22:31:17.881 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:31:17.927 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'threadPoolTaskExecutor'
+22:31:19.573 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:31:19.622 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+22:31:19.635 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:31:19.636 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+22:31:19.636 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+22:31:19.637 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+22:31:19.637 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+22:31:19.637 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+22:31:19.638 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@53086bdc
+22:31:19.798 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - [<init>,43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a7f382, org.springframework.security.web.context.SecurityContextPersistenceFilter@7be9e9fc, org.springframework.security.web.header.HeaderWriterFilter@1a4c6e74, org.springframework.security.web.authentication.logout.LogoutFilter@3cd758be, com.qh.venus.achilles.framework.security.filter.JwtAuthenticationTokenFilter@8ce3f27, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ccea4be, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12a7515b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a2297d7, org.springframework.security.web.session.SessionManagementFilter@2cf97875, org.springframework.security.web.access.ExceptionTranslationFilter@15251cc2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@48cc060d]
+22:31:19.976 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:31:19.991 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:31:20.029 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:31:20.106 [main] INFO  o.s.s.q.SchedulerFactoryBean - [startScheduler,726] - Starting Quartz Scheduler now
+22:31:20.106 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+22:31:20.114 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+22:31:20.131 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:31:20.148 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path ''
+22:31:20.151 [main] INFO  c.q.v.a.RunApplication - [logStarted,59] - Started RunApplication in 7.609 seconds (JVM running for 8.416)
+22:35:43.758 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1603095587,1603288005; username=user; password=user] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+22:35:43.768 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:35:43.768 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+22:35:43.788 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 20 ms
+22:35:43.816 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/
+22:35:44.127 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/favicon.ico
+22:36:22.756 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/dev-api
+22:36:22.859 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/favicon.ico
+22:36:59.375 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/
+22:36:59.587 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/favicon.ico
+22:37:48.321 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/@pom.artifactId@
+22:37:48.525 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/favicon.ico
+22:39:16.193 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/dev-api
+22:39:16.393 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/favicon.ico
+22:41:36.324 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/dev-api
+22:41:36.517 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/favicon.ico
+22:43:40.410 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/dev-api
+22:43:40.607 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/favicon.ico
+22:43:43.209 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/pts/dev-api
+22:43:43.307 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/favicon.ico
+22:44:45.619 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/
+22:44:45.825 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/favicon.ico
+22:44:53.911 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/
+22:44:54.010 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/favicon.ico
+22:44:56.532 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/
+22:44:56.627 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/favicon.ico
+22:44:59.524 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/
+22:44:59.612 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/favicon.ico
+22:49:04.133 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+22:49:05.689 [http-nio-8080-exec-6] INFO  i.l.c.EpollProvider - [info,101] - Starting without optional epoll library
+22:49:05.692 [http-nio-8080-exec-6] INFO  i.l.c.KqueueProvider - [info,101] - Starting without optional kqueue library
+22:49:13.670 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+22:49:17.329 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+22:49:17.792 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.s.UserDetailsServiceImpl - [loadUserByUsername,43] - 登录用户：wedding 不存在.
+22:49:17.934 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[wedding][Error][用户不存在/密码错误]
+22:49:17.986 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+22:54:33.350 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+22:54:35.564 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+22:54:35.759 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[venus][Success][登录成功]
+22:54:35.890 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+22:54:36.041 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+22:54:36.090 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+22:54:41.754 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+22:54:41.801 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+22:54:41.836 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+22:54:42.266 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/09/08/94f4ca4ae1fe2cb0e2343e5faa3e8c52.png
+22:54:42.306 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list/enable
+22:54:42.311 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/list
+22:54:42.312 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/all
+22:54:56.142 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/list
+22:54:56.142 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+22:54:56.142 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list
+22:54:57.437 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+22:54:57.464 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+22:54:58.541 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list
+22:54:58.558 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list
+22:54:59.418 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/type/list
+22:55:00.359 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/config/list
+22:55:00.962 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+22:55:00.962 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:55:00.963 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:55:01.039 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:55:01.059 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+22:55:04.434 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+22:55:16.321 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+22:55:59.943 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/role/1
+22:56:14.217 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/role/2
+22:56:28.773 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/role/13
+22:58:34.872 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/logout
+22:58:36.010 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/code
+22:58:44.722 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/auth/login
+22:58:44.857 [schedule-pool-2] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[venus][Success][登录成功]
+22:58:44.863 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+22:58:44.887 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+22:58:44.902 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+22:58:45.152 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/09/08/94f4ca4ae1fe2cb0e2343e5faa3e8c52.png
+22:58:45.191 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list/enable
+22:58:45.193 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/list
+22:58:45.193 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/all
+22:58:50.110 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+22:58:54.309 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+22:58:54.311 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/operLog/list
+22:59:00.849 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/list
+22:59:00.851 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+22:59:00.851 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list
+22:59:02.496 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+22:59:02.515 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+22:59:09.017 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list
+22:59:09.031 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list
+22:59:38.447 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/role/1
+22:59:49.071 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/role/2
+23:00:43.558 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/type/list
+23:00:53.476 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/config/list
+23:00:58.663 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+23:00:58.663 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:00:58.664 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:00:58.688 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:00:58.738 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+23:01:06.415 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/role/1
+23:01:11.193 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/role/2
+23:01:12.925 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/role/13
+23:01:47.827 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:01:56.066 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:02:01.369 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:02:08.365 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:02:12.558 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/importTable
+23:02:12.683 [threadPoolTaskExecutor-1] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=6, method=com.qh.venus.achilles.sms.system.controller.GenController.importTableSave(), requestMethod=POST, operatorType=1, operName=venus, deptName=null, operUrl=/gen/importTable, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_order"
+], status=0, errorMsg=null, operTime=null)
+23:02:12.713 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:02:22.427 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:02:26.470 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:02:37.705 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/importTable
+23:02:38.158 [threadPoolTaskExecutor-2] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=6, method=com.qh.venus.achilles.sms.system.controller.GenController.importTableSave(), requestMethod=POST, operatorType=1, operName=venus, deptName=null, operUrl=/gen/importTable, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_order,hun_agent,hun_custom,hun_dictionary,hun_level_right,hun_match,hun_matchmaker,hun_member,hun_member_level,hun_member_right,hun_member_v2"
+], status=0, errorMsg=null, operTime=null)
+23:02:38.200 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:02:52.415 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:02:52.425 [http-nio-8080-exec-24] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_order
+23:02:52.442 [threadPoolTaskExecutor-3] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_order"
+], status=1, errorMsg=nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2, operTime=null)
+23:02:58.583 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:03:09.350 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:03:09.357 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_level
+23:03:09.468 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:03:09.531 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:03:09.534 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:03:09.539 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:03:09.547 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:03:09.549 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:03:09.558 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:03:09.561 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:03:09.570 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:03:09.574 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:03:09.577 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_right
+23:03:09.583 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:03:09.588 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:03:09.590 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:03:09.594 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:03:09.599 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:03:09.601 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:03:09.610 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:03:09.611 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:03:09.617 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:03:09.621 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:03:09.622 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_v2
+23:03:09.628 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:03:09.632 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:03:09.634 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:03:09.637 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:03:09.641 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:03:09.644 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:03:09.650 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:03:09.651 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:03:09.656 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:03:09.659 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:03:09.661 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_order
+23:03:09.672 [threadPoolTaskExecutor-4] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_member_level,hun_member_right,hun_member_v2,hun_order,hun_agent,hun_custom,hun_dictionary,hun_level_right,hun_match,hun_matchmaker"
+], status=1, errorMsg=nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2, operTime=null)
+23:07:00.874 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:07:11.486 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:07:11.493 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_level
+23:07:11.499 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:07:11.506 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:07:11.509 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:07:11.512 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:07:11.516 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:07:11.518 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:07:11.525 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:07:11.527 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:07:11.532 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:07:11.535 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:07:11.538 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_right
+23:07:11.543 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:07:11.547 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:07:11.549 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:07:11.551 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:07:11.556 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:07:11.558 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:07:11.564 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:07:11.565 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:07:11.570 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:07:11.573 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:07:11.574 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_v2
+23:07:11.579 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:07:11.583 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:07:11.585 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:07:11.587 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:07:11.592 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:07:11.594 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:07:11.600 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:07:11.602 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:07:11.606 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:07:11.610 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:07:11.611 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_order
+23:07:11.622 [threadPoolTaskExecutor-5] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_member_level,hun_member_right,hun_member_v2,hun_order,hun_agent,hun_custom,hun_dictionary,hun_level_right,hun_match,hun_matchmaker"
+], status=1, errorMsg=nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2, operTime=null)
+23:11:00.561 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:11:05.710 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:11:12.118 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:11:16.290 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/edit
+23:11:29.459 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/remove
+23:11:29.493 [threadPoolTaskExecutor-6] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=3, method=com.qh.venus.achilles.sms.system.controller.GenController.remove(), requestMethod=POST, operatorType=1, operName=venus, deptName=null, operUrl=/gen/remove, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"81,86,87,88,89,79,80,83,84,82,78"
+], status=0, errorMsg=null, operTime=null)
+23:11:29.524 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:11:42.821 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/remove
+23:11:42.843 [threadPoolTaskExecutor-7] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=3, method=com.qh.venus.achilles.sms.system.controller.GenController.remove(), requestMethod=POST, operatorType=1, operName=venus, deptName=null, operUrl=/gen/remove, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"85"
+], status=0, errorMsg=null, operTime=null)
+23:11:42.864 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:11:44.044 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:11:45.399 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:11:47.984 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:11:53.395 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:11:54.853 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:11:55.050 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:11:56.755 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/importTable
+23:11:57.655 [threadPoolTaskExecutor-8] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=6, method=com.qh.venus.achilles.sms.system.controller.GenController.importTableSave(), requestMethod=POST, operatorType=1, operName=venus, deptName=null, operUrl=/gen/importTable, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_order,hun_agent,hun_custom,hun_dictionary,hun_level_right,hun_match,hun_matchmaker,hun_member,hun_member_level,hun_member_right,hun_member_v2"
+], status=0, errorMsg=null, operTime=null)
+23:11:57.694 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:12:01.322 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:12:03.635 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:12:08.402 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:12:12.024 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:12:23.418 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:12:23.426 [http-nio-8080-exec-21] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member
+23:12:23.432 [http-nio-8080-exec-21] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:12:23.439 [http-nio-8080-exec-21] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:12:23.442 [http-nio-8080-exec-21] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:12:23.444 [http-nio-8080-exec-21] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:12:23.449 [http-nio-8080-exec-21] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:12:23.453 [http-nio-8080-exec-21] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:12:23.460 [http-nio-8080-exec-21] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:12:23.462 [http-nio-8080-exec-21] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:12:23.467 [http-nio-8080-exec-21] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:12:23.472 [http-nio-8080-exec-21] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:12:23.480 [threadPoolTaskExecutor-9] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_member"
+], status=0, errorMsg=null, operTime=null)
+23:14:33.923 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:14:37.161 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:14:42.018 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:14:42.025 [http-nio-8080-exec-25] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码
+23:14:42.034 [threadPoolTaskExecutor-10] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	""
+], status=1, errorMsg=, operTime=null)
+23:15:28.548 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:15:28.558 [http-nio-8080-exec-23] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_level
+23:15:28.563 [http-nio-8080-exec-23] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:15:28.569 [http-nio-8080-exec-23] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:15:28.574 [http-nio-8080-exec-23] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:15:28.578 [http-nio-8080-exec-23] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:15:28.583 [http-nio-8080-exec-23] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:15:28.587 [http-nio-8080-exec-23] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:15:28.595 [http-nio-8080-exec-23] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:15:28.597 [http-nio-8080-exec-23] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:15:28.602 [http-nio-8080-exec-23] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:15:28.605 [http-nio-8080-exec-23] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:15:28.613 [threadPoolTaskExecutor-11] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_member_level"
+], status=0, errorMsg=null, operTime=null)
+23:15:38.751 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/edit
+23:16:32.805 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/preview/97
+23:19:23.618 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:19:23.626 [http-nio-8080-exec-27] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码
+23:19:23.637 [threadPoolTaskExecutor-12] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	""
+], status=1, errorMsg=, operTime=null)
+23:20:05.020 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:20:05.030 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_level
+23:20:05.034 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:20:05.040 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:20:05.044 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:20:05.047 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:20:05.052 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:20:05.055 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:20:05.061 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:20:05.064 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:20:05.068 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:20:05.071 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:20:05.074 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_right
+23:20:05.078 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:20:05.083 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:20:05.085 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:20:05.087 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:20:05.091 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:20:05.093 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:20:05.100 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:20:05.102 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:20:05.106 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:20:05.109 [http-nio-8080-exec-26] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:20:05.118 [threadPoolTaskExecutor-13] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_member_level,hun_member_right"
+], status=0, errorMsg=null, operTime=null)
+23:20:28.427 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:20:28.434 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_level
+23:20:28.438 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:20:28.443 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:20:28.446 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:20:28.448 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:20:28.453 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:20:28.455 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:20:28.461 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:20:28.463 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:20:28.468 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:20:28.471 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:20:28.472 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_right
+23:20:28.476 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:20:28.484 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:20:28.486 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:20:28.488 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:20:28.493 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:20:28.495 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:20:28.502 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:20:28.503 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:20:28.508 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:20:28.511 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:20:28.513 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_v2
+23:20:28.518 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:20:28.522 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:20:28.524 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:20:28.526 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:20:28.531 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:20:28.533 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:20:28.539 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:20:28.540 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:20:28.545 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:20:28.548 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:20:28.550 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_order
+23:20:28.554 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:20:28.558 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:20:28.560 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:20:28.563 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:20:28.568 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:20:28.570 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:20:28.576 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:20:28.577 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:20:28.582 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:20:28.585 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:20:28.592 [threadPoolTaskExecutor-14] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_member_level,hun_member_right,hun_member_v2,hun_order"
+], status=0, errorMsg=null, operTime=null)
+23:20:43.937 [http-nio-8080-exec-30] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:20:43.946 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_level
+23:20:43.950 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:20:43.954 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:20:43.956 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:20:43.959 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:20:43.963 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:20:43.965 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:20:43.970 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:20:43.972 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:20:43.976 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:20:43.979 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:20:43.981 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_right
+23:20:43.984 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:20:43.988 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:20:43.990 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:20:43.993 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:20:43.997 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:20:43.999 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:20:44.004 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:20:44.005 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:20:44.010 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:20:44.013 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:20:44.014 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_v2
+23:20:44.018 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:20:44.021 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:20:44.024 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:20:44.026 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:20:44.030 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:20:44.032 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:20:44.037 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:20:44.038 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:20:44.043 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:20:44.046 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:20:44.047 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_order
+23:20:44.050 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:20:44.054 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:20:44.056 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:20:44.059 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:20:44.063 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:20:44.081 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:20:44.087 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:20:44.088 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:20:44.094 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:20:44.097 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:20:44.098 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_agent
+23:20:44.102 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:20:44.107 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:20:44.110 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:20:44.112 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:20:44.116 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:20:44.118 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:20:44.124 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:20:44.125 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:20:44.130 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:20:44.132 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:20:44.134 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_custom
+23:20:44.138 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:20:44.143 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:20:44.146 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:20:44.149 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:20:44.153 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:20:44.155 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:20:44.164 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:20:44.165 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:20:44.170 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:20:44.178 [http-nio-8080-exec-30] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:20:44.186 [threadPoolTaskExecutor-15] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_member_level,hun_member_right,hun_member_v2,hun_order,hun_agent,hun_custom"
+], status=0, errorMsg=null, operTime=null)
+23:21:02.090 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:21:02.097 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_level
+23:21:02.102 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:21:02.106 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:21:02.108 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:21:02.110 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:21:02.114 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:21:02.117 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:21:02.123 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:21:02.124 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:21:02.128 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:21:02.131 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:21:02.132 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_right
+23:21:02.136 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:21:02.140 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:21:02.142 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:21:02.144 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:21:02.147 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:21:02.149 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:21:02.156 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:21:02.157 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:21:02.161 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:21:02.163 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:21:02.164 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_v2
+23:21:02.169 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:21:02.173 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:21:02.175 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:21:02.177 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:21:02.181 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:21:02.183 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:21:02.189 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:21:02.191 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:21:02.195 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:21:02.198 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:21:02.199 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_order
+23:21:02.203 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:21:02.207 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:21:02.209 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:21:02.210 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:21:02.214 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:21:02.216 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:21:02.222 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:21:02.223 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:21:02.227 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:21:02.233 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:21:02.234 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_agent
+23:21:02.239 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:21:02.242 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:21:02.244 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:21:02.246 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:21:02.250 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:21:02.252 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:21:02.258 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:21:02.259 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:21:02.263 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:21:02.266 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:21:02.268 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_custom
+23:21:02.274 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:21:02.278 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:21:02.281 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:21:02.283 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:21:02.287 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:21:02.290 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:21:02.295 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:21:02.298 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:21:02.304 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:21:02.308 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:21:02.309 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_dictionary
+23:21:02.313 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:21:02.316 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:21:02.319 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:21:02.322 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:21:02.326 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:21:02.328 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:21:02.333 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:21:02.335 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:21:02.339 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:21:02.342 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:21:02.343 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_level_right
+23:21:02.346 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:21:02.349 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:21:02.352 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:21:02.354 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:21:02.358 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:21:02.360 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:21:02.365 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:21:02.368 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:21:02.372 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:21:02.375 [http-nio-8080-exec-1] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:21:02.383 [threadPoolTaskExecutor-16] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_member_level,hun_member_right,hun_member_v2,hun_order,hun_agent,hun_custom,hun_dictionary,hun_level_right"
+], status=0, errorMsg=null, operTime=null)
+23:22:59.568 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/edit
+23:25:45.784 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:25:45.792 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_level
+23:25:45.801 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:25:45.807 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:25:45.810 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:25:45.813 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:25:45.818 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:25:45.821 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:25:45.828 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:25:45.829 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:25:45.834 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:25:45.837 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:25:45.840 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_right
+23:25:45.843 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:25:45.847 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:25:45.849 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:25:45.851 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:25:45.855 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:25:45.858 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:25:45.863 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:25:45.865 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:25:45.869 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:25:45.871 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:25:45.873 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member_v2
+23:25:45.877 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:25:45.881 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:25:45.883 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:25:45.885 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:25:45.889 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:25:45.891 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:25:45.897 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:25:45.898 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:25:45.902 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:25:45.905 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:25:45.907 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_order
+23:25:45.911 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:25:45.914 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:25:45.917 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:25:45.919 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:25:45.922 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:25:45.925 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:25:45.930 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:25:45.931 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:25:45.936 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:25:45.939 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:25:45.941 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_agent
+23:25:45.945 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:25:45.948 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:25:45.951 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:25:45.953 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:25:45.958 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:25:45.960 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:25:45.966 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:25:45.967 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:25:45.971 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:25:45.975 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:25:45.976 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_custom
+23:25:45.981 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:25:45.985 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:25:45.987 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:25:45.990 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:25:45.995 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:25:45.997 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:25:46.003 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:25:46.005 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:25:46.009 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:25:46.012 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:25:46.014 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_dictionary
+23:25:46.017 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:25:46.021 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:25:46.023 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:25:46.025 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:25:46.029 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:25:46.031 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:25:46.036 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:25:46.037 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:25:46.041 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:25:46.044 [http-nio-8080-exec-4] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:25:46.051 [threadPoolTaskExecutor-17] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_member_level,hun_member_right,hun_member_v2,hun_order,hun_agent,hun_custom,hun_dictionary"
+], status=0, errorMsg=null, operTime=null)
+23:27:08.657 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:27:10.695 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:27:12.314 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:27:13.454 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:27:13.674 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:27:18.587 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/remove
+23:27:18.607 [threadPoolTaskExecutor-18] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=3, method=com.qh.venus.achilles.sms.system.controller.GenController.remove(), requestMethod=POST, operatorType=1, operName=venus, deptName=null, operUrl=/gen/remove, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"97,98,99,100,90,91,92"
+], status=0, errorMsg=null, operTime=null)
+23:27:18.664 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:27:21.589 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/remove
+23:27:21.608 [threadPoolTaskExecutor-19] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=3, method=com.qh.venus.achilles.sms.system.controller.GenController.remove(), requestMethod=POST, operatorType=1, operName=venus, deptName=null, operUrl=/gen/remove, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"93,94,95,96"
+], status=0, errorMsg=null, operTime=null)
+23:27:21.640 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:27:22.819 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:27:23.760 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:27:25.511 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:27:30.595 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/importTable
+23:27:35.516 [threadPoolTaskExecutor-20] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=6, method=com.qh.venus.achilles.sms.system.controller.GenController.importTableSave(), requestMethod=POST, operatorType=1, operName=venus, deptName=null, operUrl=/gen/importTable, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_order,hun_agent,hun_custom,hun_dictionary,hun_level_right,hun_match,hun_matchmaker,hun_member,hun_member_level,hun_member_right,hun_member_v2"
+], status=0, errorMsg=null, operTime=null)
+23:27:35.576 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:28:23.347 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/remove
+23:28:23.364 [threadPoolTaskExecutor-21] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=3, method=com.qh.venus.achilles.sms.system.controller.GenController.remove(), requestMethod=POST, operatorType=1, operName=venus, deptName=null, operUrl=/gen/remove, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"109,110,101,102,103"
+], status=0, errorMsg=null, operTime=null)
+23:28:23.404 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:28:25.987 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/remove
+23:28:26.005 [threadPoolTaskExecutor-22] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=3, method=com.qh.venus.achilles.sms.system.controller.GenController.remove(), requestMethod=POST, operatorType=1, operName=venus, deptName=null, operUrl=/gen/remove, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"104,105,106,107,108"
+], status=0, errorMsg=null, operTime=null)
+23:28:26.040 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:28:27.111 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:28:29.917 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/db/list
+23:28:31.777 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/importTable
+23:28:32.067 [threadPoolTaskExecutor-23] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=6, method=com.qh.venus.achilles.sms.system.controller.GenController.importTableSave(), requestMethod=POST, operatorType=1, operName=venus, deptName=null, operUrl=/gen/importTable, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_order,hun_agent,hun_custom,hun_dictionary,hun_level_right,hun_match,hun_matchmaker,hun_member,hun_member_level,hun_member_right,hun_member_v2"
+], status=0, errorMsg=null, operTime=null)
+23:28:32.112 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:29:10.237 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:29:10.243 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_order
+23:29:10.249 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:29:10.254 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:29:10.257 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:29:10.260 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:29:10.266 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:29:10.268 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:29:10.274 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:29:10.275 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:29:10.281 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:29:10.284 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:29:10.287 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_agent
+23:29:10.290 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:29:10.293 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:29:10.295 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:29:10.297 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:29:10.301 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:29:10.303 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:29:10.307 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:29:10.308 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:29:10.314 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:29:10.317 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:29:10.319 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_custom
+23:29:10.323 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:29:10.326 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:29:10.329 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:29:10.331 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:29:10.335 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:29:10.337 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:29:10.343 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:29:10.344 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:29:10.349 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:29:10.352 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:29:10.353 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_level_right
+23:29:10.357 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:29:10.359 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:29:10.361 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:29:10.364 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:29:10.369 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:29:10.371 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:29:10.375 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:29:10.376 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:29:10.381 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:29:10.384 [http-nio-8080-exec-28] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:29:10.390 [threadPoolTaskExecutor-24] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_order,hun_agent,hun_custom,hun_level_right"
+], status=0, errorMsg=null, operTime=null)
+23:48:47.317 [Thread-18] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+23:48:47.322 [Thread-18] INFO  o.s.s.q.SchedulerFactoryBean - [destroy,844] - Shutting down Quartz Scheduler
+23:48:47.322 [Thread-18] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+23:48:47.322 [Thread-18] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+23:48:47.323 [Thread-18] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+23:48:47.325 [Thread-18] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,208] - Shutting down ExecutorService 'threadPoolTaskExecutor'
+23:48:47.329 [Thread-18] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+23:48:47.333 [Thread-18] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+23:48:56.760 [main] INFO  c.q.v.a.RunApplication - [logStarting,50] - Starting RunApplication on cxdpcdeMacBook-Pro.local with PID 11668 (/Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager/target/classes started by cxdpc in /Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager)
+23:48:56.764 [main] INFO  c.q.v.a.RunApplication - [logStartupProfileInfo,679] - The following profiles are active: dev
+23:48:56.857 [main] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23:48:58.274 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+23:48:58.276 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+23:48:58.357 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 65ms. Found 0 repository interfaces.
+23:48:58.860 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$e40c096c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:48:58.944 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1da04b3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:48:59.208 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$b64e1378] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:48:59.222 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:48:59.227 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@633ddc0c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:48:59.232 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$db22b62a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:48:59.252 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:48:59.810 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+23:48:59.831 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+23:48:59.841 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:48:59.841 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+23:48:59.849 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/cxdpc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23:48:59.955 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:48:59.956 [main] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 3098 ms
+23:49:01.635 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'xssFilter' to urls: [/system/*, /monitor/*, /tool/*, /pts/sys/*]
+23:49:01.636 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:49:01.636 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:49:01.636 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+23:49:01.636 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+23:49:01.637 [main] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - [configure,248] - Mapping filter: 'springSecurityFilterChain' to: [/*]
+23:49:01.637 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'object' to urls: [/druid/js/common.js]
+23:49:01.638 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'repeatableFilter' to urls: [/*]
+23:49:01.638 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'webStatFilter' to urls: [/*]
+23:49:01.638 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'jwtAuthenticationTokenFilter' to: [/*]
+23:49:01.638 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+23:49:01.639 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet statViewServlet mapped to [/druid/*]
+23:49:03.194 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+23:49:03.234 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'threadPoolTaskExecutor'
+23:49:04.937 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+23:49:04.981 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+23:49:04.993 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:49:04.993 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+23:49:04.994 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+23:49:04.995 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+23:49:04.995 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+23:49:04.995 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+23:49:04.996 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@410e043b
+23:49:05.162 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - [<init>,43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33de9d85, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d7888a5, org.springframework.security.web.header.HeaderWriterFilter@5b312863, org.springframework.security.web.authentication.logout.LogoutFilter@12bb8943, com.qh.venus.achilles.framework.security.filter.JwtAuthenticationTokenFilter@73a5d86c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23a78d2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7692c0e9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f6352a3, org.springframework.security.web.session.SessionManagementFilter@24ae2183, org.springframework.security.web.access.ExceptionTranslationFilter@24381e4a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51d41b97]
+23:49:05.347 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+23:49:05.364 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+23:49:05.405 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+23:49:05.488 [main] INFO  o.s.s.q.SchedulerFactoryBean - [startScheduler,726] - Starting Quartz Scheduler now
+23:49:05.489 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+23:49:05.497 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+23:49:05.513 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+23:49:05.530 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path ''
+23:49:05.533 [main] INFO  c.q.v.a.RunApplication - [logStarted,59] - Started RunApplication in 9.35 seconds (JVM running for 10.331)
+23:49:48.897 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1603095587,1603288005; username=user; password=user] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+23:49:48.906 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:49:48.906 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+23:49:48.922 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 16 ms
+23:49:48.941 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+23:49:49.131 [http-nio-8080-exec-1] INFO  i.l.c.EpollProvider - [info,101] - Starting without optional epoll library
+23:49:49.134 [http-nio-8080-exec-1] INFO  i.l.c.KqueueProvider - [info,101] - Starting without optional kqueue library
+23:49:49.609 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+23:49:49.668 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+23:49:53.183 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+23:49:53.264 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+23:49:53.326 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+23:49:53.613 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/09/08/94f4ca4ae1fe2cb0e2343e5faa3e8c52.png
+23:49:53.638 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list/enable
+23:49:53.641 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/list
+23:49:53.642 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/all
+23:49:55.722 [http-nio-8080-exec-11] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/role/list
+23:49:55.726 [http-nio-8080-exec-12] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+23:49:55.726 [http-nio-8080-exec-13] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list
+23:49:56.400 [http-nio-8080-exec-14] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+23:49:56.425 [http-nio-8080-exec-15] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+23:49:57.062 [http-nio-8080-exec-16] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/type/list
+23:49:57.743 [http-nio-8080-exec-17] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/config/list
+23:49:58.368 [http-nio-8080-exec-18] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:49:58.370 [http-nio-8080-exec-20] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:49:58.371 [http-nio-8080-exec-19] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+23:49:58.403 [http-nio-8080-exec-21] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dict/data/type
+23:49:58.443 [http-nio-8080-exec-22] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/list
+23:50:00.993 [http-nio-8080-exec-23] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list
+23:50:01.012 [http-nio-8080-exec-24] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/dept/list
+23:50:10.843 [http-nio-8080-exec-25] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:52:07.467 [http-nio-8080-exec-26] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:52:09.137 [http-nio-8080-exec-27] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:52:09.681 [http-nio-8080-exec-28] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:52:15.649 [http-nio-8080-exec-29] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/batchGenCode
+23:52:15.657 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,236] - 生成代码hun_member
+23:52:15.727 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/domain.java.vm
+23:52:15.769 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/mapper.java.vm
+23:52:15.772 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/service.java.vm
+23:52:15.776 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/serviceImpl.java.vm
+23:52:15.782 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/java/controller.java.vm
+23:52:15.785 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/xml/mapper.xml.vm
+23:52:15.795 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/api.js.vm
+23:52:15.797 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/list.vue.vm
+23:52:15.804 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/vue/modal.vue.vm
+23:52:15.809 [http-nio-8080-exec-29] INFO  c.q.v.a.s.s.s.i.GenTableServiceImpl - [generatorCode,252] - 渲染模板vm/sql/sql.vm
+23:52:15.877 [threadPoolTaskExecutor-1] INFO  c.q.v.a.f.l.l.LogListener - [listenOperLog,39] - 远程操作日志记录成功：SysOperLog(operId=null, title=代码生成, businessType=8, method=com.qh.venus.achilles.sms.system.controller.GenController.batchGenCode(), requestMethod=GET, operatorType=1, operName=venus, deptName=null, operUrl=/gen/batchGenCode, operIp=127.0.0.1, operLocation=内网IP, operParam=[
+	"hun_member"
+], status=0, errorMsg=null, operTime=null)
+23:54:09.014 [Thread-22] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+23:54:09.017 [Thread-22] INFO  o.s.s.q.SchedulerFactoryBean - [destroy,844] - Shutting down Quartz Scheduler
+23:54:09.017 [Thread-22] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+23:54:09.017 [Thread-22] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+23:54:09.017 [Thread-22] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+23:54:09.019 [Thread-22] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,208] - Shutting down ExecutorService 'threadPoolTaskExecutor'
+23:54:09.021 [Thread-22] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+23:54:09.033 [Thread-22] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+23:54:15.414 [main] INFO  c.q.v.a.RunApplication - [logStarting,50] - Starting RunApplication on cxdpcdeMacBook-Pro.local with PID 11720 (/Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager/target/classes started by cxdpc in /Users/cxdpc/WorkSpaces/idea_workspace/wedding-manager)
+23:54:15.419 [main] INFO  c.q.v.a.RunApplication - [logStartupProfileInfo,679] - The following profiles are active: dev
+23:54:15.459 [main] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23:54:16.479 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [multipleStoresDetected,244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+23:54:16.481 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+23:54:16.529 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - [registerRepositoriesIn,182] - Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+23:54:16.927 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$622e73be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:54:17.007 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9bc2b590] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:54:17.166 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$34707dca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:54:17.176 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:54:17.183 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7ac5b4c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:54:17.188 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$5945207c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:54:17.203 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - [postProcessAfterInitialization,330] - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:54:17.831 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,90] - Tomcat initialized with port(s): 8080 (http)
+23:54:17.842 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+23:54:17.847 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:54:17.847 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.12
+23:54:17.853 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/cxdpc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23:54:17.940 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:54:17.940 [main] INFO  o.s.w.c.ContextLoader - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 2481 ms
+23:54:19.275 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'xssFilter' to urls: [/system/*, /monitor/*, /tool/*, /pts/sys/*]
+23:54:19.276 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:54:19.276 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:54:19.276 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'formContentFilter' to: [/*]
+23:54:19.277 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'requestContextFilter' to: [/*]
+23:54:19.278 [main] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - [configure,248] - Mapping filter: 'springSecurityFilterChain' to: [/*]
+23:54:19.278 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'object' to urls: [/druid/js/common.js]
+23:54:19.278 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'repeatableFilter' to urls: [/*]
+23:54:19.278 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,261] - Mapping filter: 'webStatFilter' to urls: [/*]
+23:54:19.279 [main] INFO  o.s.b.w.s.FilterRegistrationBean - [configure,248] - Mapping filter: 'jwtAuthenticationTokenFilter' to: [/*]
+23:54:19.279 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet dispatcherServlet mapped to [/]
+23:54:19.280 [main] INFO  o.s.b.w.s.ServletRegistrationBean - [addRegistration,186] - Servlet statViewServlet mapped to [/druid/*]
+23:54:20.693 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+23:54:20.738 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,171] - Initializing ExecutorService 'threadPoolTaskExecutor'
+23:54:22.473 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+23:54:22.517 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+23:54:22.528 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:54:22.528 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+23:54:22.529 [main] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+23:54:22.530 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+23:54:22.530 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+23:54:22.530 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+23:54:22.530 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5b01b3f8
+23:54:22.700 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - [<init>,43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77262e71, org.springframework.security.web.context.SecurityContextPersistenceFilter@c0cb9c2, org.springframework.security.web.header.HeaderWriterFilter@2eed6331, org.springframework.security.web.authentication.logout.LogoutFilter@1a0e5c0c, com.qh.venus.achilles.framework.security.filter.JwtAuthenticationTokenFilter@5600a278, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a6d6308, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d9cac6e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77902ed6, org.springframework.security.web.session.SessionManagementFilter@4accc3de, org.springframework.security.web.access.ExceptionTranslationFilter@6b7ebac1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22195d06]
+23:54:22.899 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+23:54:22.921 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+23:54:22.970 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+23:54:23.100 [main] INFO  o.s.s.q.SchedulerFactoryBean - [startScheduler,726] - Starting Quartz Scheduler now
+23:54:23.101 [main] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+23:54:23.110 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+23:54:23.129 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+23:54:23.150 [main] INFO  o.s.b.w.e.t.TomcatWebServer - [start,204] - Tomcat started on port(s): 8080 (http) with context path ''
+23:54:23.153 [main] INFO  c.q.v.a.RunApplication - [logStarted,59] - Started RunApplication in 8.132 seconds (JVM running for 8.812)
+23:54:32.863 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1603095587,1603288005; username=user; password=user] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+23:54:32.871 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:54:32.871 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,521] - Initializing Servlet 'dispatcherServlet'
+23:54:32.889 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - [initServletBean,543] - Completed initialization in 18 ms
+23:54:32.909 [http-nio-8080-exec-1] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+23:54:33.109 [http-nio-8080-exec-1] INFO  i.l.c.EpollProvider - [info,101] - Starting without optional epoll library
+23:54:33.111 [http-nio-8080-exec-1] INFO  i.l.c.KqueueProvider - [info,101] - Starting without optional kqueue library
+23:54:33.570 [http-nio-8080-exec-2] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+23:54:33.624 [http-nio-8080-exec-3] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+23:54:33.926 [http-nio-8080-exec-4] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/09/08/94f4ca4ae1fe2cb0e2343e5faa3e8c52.png
+23:54:33.953 [http-nio-8080-exec-5] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list
+23:57:56.328 [http-nio-8080-exec-6] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/user/info
+23:57:56.417 [http-nio-8080-exec-7] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/topMenu/list
+23:57:56.573 [http-nio-8080-exec-8] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/system/menu/user
+23:57:56.842 [http-nio-8080-exec-9] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/openfile/2020/09/08/94f4ca4ae1fe2cb0e2343e5faa3e8c52.png
+23:57:56.867 [http-nio-8080-exec-10] INFO  c.q.v.a.f.s.f.JwtAuthenticationTokenFilter - [doFilterInternal,43] - url:/gen/list

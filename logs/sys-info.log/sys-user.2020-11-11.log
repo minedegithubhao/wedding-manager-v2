@@ -1,0 +1,6 @@
+22:26:58.136 [Thread-23] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+22:49:17.934 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[wedding][Error][用户不存在/密码错误]
+22:54:35.759 [schedule-pool-1] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[venus][Success][登录成功]
+22:58:44.857 [schedule-pool-2] INFO  sys-user - [run,61] - [127.0.0.1]内网IP[venus][Success][登录成功]
+23:48:47.329 [Thread-18] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
+23:54:09.021 [Thread-22] INFO  sys-user - [shutdownAsyncManager,36] - ====关闭后台任务任务线程池====
